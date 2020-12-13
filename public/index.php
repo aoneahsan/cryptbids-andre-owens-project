@@ -19,7 +19,9 @@ define('LARAVEL_START', microtime(true));
 if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
     require __DIR__.'/../storage/framework/maintenance.php';
 }
-
+// if (file_exists(__DIR__.'/cryptbids-laravel/storage/framework/maintenance.php')) {
+//     require __DIR__.'/cryptbids-laravel/storage/framework/maintenance.php';
+// }
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -32,7 +34,7 @@ if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
 */
 
 require __DIR__.'/../vendor/autoload.php';
-
+// require __DIR__.'/cryptbids-laravel/vendor/autoload.php';
 /*
 |--------------------------------------------------------------------------
 | Run The Application
@@ -45,7 +47,7 @@ require __DIR__.'/../vendor/autoload.php';
 */
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
-
+// $app = require_once __DIR__.'/cryptbids-laravel/bootstrap/app.php';
 $kernel = $app->make(Kernel::class);
 
 $response = tap($kernel->handle(
