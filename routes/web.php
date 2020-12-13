@@ -1,6 +1,14 @@
 <?php
 
 use App\Http\Livewire\Frontend\Home\HomePage;
+use App\Http\Livewire\Frontend\Pages\AboutUs;
+use App\Http\Livewire\Frontend\Pages\Career;
+use App\Http\Livewire\Frontend\Pages\ContactUs;
+use App\Http\Livewire\Frontend\Pages\Disclaimer;
+use App\Http\Livewire\Frontend\Pages\Faq;
+use App\Http\Livewire\Frontend\Pages\Fees;
+use App\Http\Livewire\Frontend\Pages\PrivacyPolicy;
+use App\Http\Livewire\Frontend\Pages\TermsAndConditions;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
@@ -23,4 +31,14 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/home', HomePage::class);
+Route::get('/', HomePage::class)->name('home');
+Route::get('/about-us', AboutUs::class)->name('about-us');
+Route::get('/contact-us', ContactUs::class)->name('contact-us');
+Route::get('/privacy-policy', PrivacyPolicy::class)->name('privacy-policy');
+Route::get('/faqs', Faq::class)->name('faqs');
+Route::get('/fees', Fees::class)->name('fees');
+Route::get('/career', Career::class)->name('career');
+Route::get('/disclaimer', Disclaimer::class)->name('disclaimer');
+Route::get('/terms-and-conditions', TermsAndConditions::class)->name('terms-and-conditions');
+
+Route::redirect('/{any}', '/')->where('any', '.*');

@@ -1,0 +1,130 @@
+.color-primary {
+    color: #fdc30b;
+}
+.color-white {
+    color: white;
+}
+.text-heavy {
+    font-weight: 900;
+}
+.auction-join-us__video {
+    width: 65%;
+    margin: auto;
+    height: 450px;
+}
+.auction-benifits {
+    background: url("./../../images/cryptbids/cryptbids-bg-8.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fs-huge {
+    font-size: 3.3rem;
+}
+.bg-lightgrey {
+    background-color: #f4f4f4;
+}
+.for-you__currencies {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.for-you__currency {
+    flex: 1;
+    max-width: 100px;
+}
+.footer-sections ul li a {
+    color: grey;
+}
+.footer-sections ul li:hover a,
+.footer-sections ul li a:hover,
+.footer-sections ul li a.active {
+    color: white;
+}
+.footer-sections ul.socials li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid grey;
+    font-size: 16px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.footer-sections ul.socials li,
+.footer-sections ul.socials li a,
+.footer-sections ul.socials li * {
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+.footer-sections ul.socials li:hover {
+    border-color: white;
+}
+.disclaimer h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+.disclaimer h3.color-white,
+.disclaimer p.color-white {
+    color: white !important;
+}
+.disclaimer p {
+    font-size: 16px;
+}
+.disclaimer ul {
+    padding-left: 20px !important;
+}
+.disclaimer ul li {
+    list-style: disc !important;
+    margin-bottom: 9px;
+}
+.fees-page-bg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
+        url("./../../images/cryptbids/cryptbids-bg-6.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+.full-screen {
+    height: 98vh;
+}
+@media all and (min-width: 1300px) {
+    .auction-join-us__video {
+        width: 600px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+}
+
+@media all and (max-width: 980px) {
+    .for-you__currency {
+        margin: 0 20px 30px 20px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .position-center-center {
+        background-color: #343a40;
+    }
+    .auction-join-us__video {
+        width: 96%;
+        height: 380px;
+    }
+    .for-you__currencies {
+        padding: 0 50px;
+        flex-wrap: wrap;
+    }
+    .full-screen {
+        height: 100% !important;
+    }
+}
