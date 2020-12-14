@@ -99,28 +99,12 @@
         {{-- Page Content Ends --}}
         <!-- Footer -->
         <footer id="contact">
-            <div class="container">
-                <div class="parthner">
-                    <h6>Partnered with Innovative Globally</h6>
-                    <ul>
-                        <li><a href="{{ route('home') }}"><img src="{{ asset('images/c-mg-1.png') }}" alt=""></a></li>
-                        <li><a href="{{ route('home') }}"><img src="{{ asset('images/c-mg-2.png') }}" alt=""></a></li>
-                        <li><a href="{{ route('home') }}"><img src="{{ asset('images/c-mg-3.png') }}" alt=""></a></li>
-                        <li><a href="{{ route('home') }}"><img src="{{ asset('images/c-mg-1.png') }}" alt=""></a></li>
-                        <li><a href="{{ route('home') }}"><img src="{{ asset('images/c-mg-2.png') }}" alt=""></a></li>
-                        <li><a href="{{ route('home') }}"><img src="{{ asset('images/c-mg-3.png') }}" alt=""></a></li>
-                        <li><a href="{{ route('home') }}"><img src="{{ asset('images/c-mg-1.png') }}" alt=""></a></li>
-                        <li><a href="{{ route('home') }}"><img src="{{ asset('images/c-mg-2.png') }}" alt=""></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-sections pt-5" style="border-top: 1px solid rgba(255, 255, 255, 0.1)">
+            <div class="footer-sections">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-6 col-md-3 pl-0">
                             <div class="w-100 text-center text-md-left mt-n3 mb-4">
-                                <img src="{{ asset('images/cryptbids/crpytbids-logo-dark.png') }}"
+                                <img src="{{ asset('images/cryptbids/cryptbids-logo.png') }}"
                                     class="col-12 col-sm-10 pl-0 d-inline-block" />
                             </div>
                             <p class="color-white">Join a global community of people who have discovered their pathway
@@ -173,7 +157,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <p>© 2018 Copyright © {{ now()->year }} Cryptbids</p>
+                            <p>© {{ now()->year }} Cryptbids.com. All rights reserved</p>
                         </div>
                         <div class="col-md-6 text-right">
                             <a class="{{ request()->is('disclaimer') ? 'active' : '' }}"

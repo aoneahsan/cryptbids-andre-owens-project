@@ -149,15 +149,15 @@ img {
     z-index: 1;
 }
 .btn:hover {
-    background: #0b0c22;
+    background: #0c0e11;
     color: #fff;
 }
 .btn-inverse {
     background: #fdc30b;
-    color: #0b0c22;
+    color: #0c0e11;
 }
 .btn-inverse:hover {
-    background: #0b0c22;
+    background: #0c0e11;
     color: #fff;
 }
 .btn-white {
@@ -950,9 +950,9 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 ========================================================*/
 #particles-js {
     width: 100%;
-	background: #0b0c22;
+	background: #0c0e11;
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
-        url("./../../images/cryptbids/cryptbids-bg-7.jpg");
+        url("./../../images/cryptbids/cryptbids-bg-5.jpg");
     background-size: cover;
 }
 .simple-head {
@@ -1136,7 +1136,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
     position: relative;
 }
 .distri .progress-bar {
-    background-color: #0b0c22;
+    background-color: #0c0e11;
 }
 .distri .progress span {
     font-weight: bold;
@@ -1219,7 +1219,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
     text-align: left;
 }
 .distri.drk {
-    background: #0b0c22;
+    background: #0c0e11;
     background-size: cover;
 }
 .distri.drk .progress {
@@ -1246,7 +1246,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
     background: rgba(255, 255, 255, 0.05);
 }
 .distri.drk .progress span {
-    color: #0b0c22;
+    color: #0c0e11;
 }
 .distri.drk .progress-bar {
     background: #fdc30b;
@@ -1312,7 +1312,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 }
 .why-choose .ib-icon i {
     font-size: 40px;
-    color: #0b0c22;
+    color: #0c0e11;
 }
 .why-choose .vid-btn {
     margin-top: 15px;
@@ -1378,7 +1378,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
     color: #fff;
     border-radius: 4px;
     padding: 3px 8px;
-    background: #0b0c22;
+    background: #0c0e11;
     position: relative;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1396,7 +1396,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
     height: 1px;
     top: 9px;
     width: 30px;
-    background: #0b0c22;
+    background: #0c0e11;
 }
 .road-map .edu-list li:nth-last-child(1) {
     margin-bottom: 0px;
@@ -1449,7 +1449,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
     position: absolute;
     top: 0px;
     right: 0px;
-    background: #0b0c22;
+    background: #0c0e11;
 }
 .news-letter form button:hover {
     background: #fff;
@@ -1501,7 +1501,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 			Footer
 ========================================================*/
 footer {
-    background: #0b0c22;
+    background: #0c0e11;
     padding: 50px 0;
     padding-bottom: 0px;
     z-index: 1;
@@ -1601,7 +1601,7 @@ footer .rights a:hover, footer .rights a.active {
     border-radius: 4px 0 0 4px;
     font-size: 18px;
     text-align: center;
-    background: #0b0c22;
+    background: #0c0e11;
     line-height: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
@@ -1632,7 +1632,7 @@ footer .rights a:hover, footer .rights a.active {
     opacity: 0.5;
 }
 .no-touch .cd-top:hover {
-    background-color: #0b0c22;
+    background-color: #0c0e11;
     opacity: 1;
     color: #fff;
 }
@@ -1779,6 +1779,6 @@ footer .rights a:hover, footer .rights a.active {
 .contact-form button:hover {
 }
 a:hover {
-    color: #0b0c22;
+    color: #0c0e11;
     text-decoration: underline;
 }

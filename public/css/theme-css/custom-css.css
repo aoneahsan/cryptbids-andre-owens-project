@@ -8,7 +8,7 @@
     font-weight: 900;
 }
 .auction-join-us__video {
-    width: 65%;
+    width: 75%;
     margin: auto;
     height: 450px;
 }
@@ -99,7 +99,7 @@
 }
 @media all and (min-width: 1300px) {
     .auction-join-us__video {
-        width: 600px;
+        width: 70%;
     }
 }
 
