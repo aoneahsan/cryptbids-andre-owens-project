@@ -4,18 +4,18 @@
     </div>
 
     <div class="mt-8 text-2xl">
-        Welcome to your Jetstream application!
+        Welcome to your cryptbids application!
     </div>
 
-    <div class="mt-6 text-gray-500">
-        Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
+    {{-- <div class="mt-6 text-gray-500">
+        Laravel cryptbids provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
         to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe
         you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
         ecosystem to be a breath of fresh air. We hope you love it.
-    </div>
+    </div> --}}
 </div>
 
-<div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2">
+{{-- <div class="bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2">
     <div class="p-6">
         <div class="flex items-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-400"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
@@ -70,7 +70,7 @@
 
         <div class="ml-12">
             <div class="mt-2 text-sm text-gray-500">
-                Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.
+                Laravel cryptbids is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.
             </div>
         </div>
     </div>
@@ -83,8 +83,8 @@
 
         <div class="ml-12">
             <div class="mt-2 text-sm text-gray-500">
-                Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.
+                Authentication and registration views are included with Laravel cryptbids, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.
             </div>
         </div>
     </div>
-</div>
+</div> --}}

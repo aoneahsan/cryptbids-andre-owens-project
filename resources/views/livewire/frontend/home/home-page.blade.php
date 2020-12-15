@@ -11,39 +11,41 @@
                 <a href="{{ route('contact-us') }}" class="btn btn-inverse">Let's Talk</a>
             </div>
         </div>
+        <div id="how-it-works">
+            <div>
     </section>
 
     <!-- auction-steps  ROW-->
     <div class="auction-steps padding-top-100 padding-bottom-100">
         <div class="container">
             <div class="row">
-                <div class="col-12 margin-bottom-30">
-                    <span class="d-block h1 text-center margin-bottom-30">Getting started is <span
-                            class="color-primary">easy</span></span>
-                    <span class="d-block h5 text-center">Get in on the auction in 3 simple steps.</span>
+                <div class="col-12 margin-bottom-50">
+                    <span class="d-block h1 text-center margin-bottom-30">How It <span
+                            class="color-primary">Works</span></span>
+                    <span class="d-block h3 text-center">Get in on the auction in 3 simple steps.</span>
                 </div>
                 <div class="col-12 col-md-4 text-center auction-step">
                     <img src="{{ asset('images/cryptbids/auction-step-1.png') }}"
                         class="auction-step__img margin-bottom-30" />
-                    <span class="auction-step__title margin-bottom-20 h3 d-block">Create your <span
+                    {{-- <span
+                        class="auction-step__title margin-bottom-20 h3 d-block">Create your <span
                             class="color-primary">account</span></span>
                     <span class="auction-step__description h5">Sign up directly on our website.</span>
+                    --}}
+                    <span class="auction-step__title margin-bottom-20 h3 d-block">Select The <span
+                            class="color-primary">"Register"</span> Button.</span>
                 </div>
                 <div class="col-12 col-md-4 text-center auction-step">
                     <img src="{{ asset('images/cryptbids/auction-step-2.png') }}"
                         class="auction-step__img margin-bottom-30" />
-                    <span class="auction-step__title margin-bottom-20 h3 d-block">Verify your <span
-                            class="color-primary">identity</span></span>
-                    <span class="auction-step__description h5">Instantly validate identity with facial recognition
-                        system.</span>
+                    <span class="auction-step__title margin-bottom-20 h3 d-block">Go Through The <span
+                            class="color-primary">Verification</span> Process.</span>
                 </div>
                 <div class="col-12 col-md-4 text-center auction-step">
                     <img src="{{ asset('images/cryptbids/auction-step-3.png') }}"
                         class="auction-step__img margin-bottom-30" />
                     <span class="auction-step__title margin-bottom-20 h3 d-block">Start <span
-                            class="color-primary">auctioning</span></span>
-                    <span class="auction-step__description h5">Direct peer 2 peer auctioning of your favorite crypto
-                        using secure payment.</span>
+                            class="color-primary">Auctioning!</span></span>
                 </div>
             </div>
         </div>
@@ -125,13 +127,9 @@
                 <div class="col-12 col-md-6 text-center text-md-left">
                     <span class="d-block fs-huge text-heavy mb-4 mt-0 mt-md-5">Cryptbids is the coolest thing in <span
                             class="color-primary">crypto</span></span>
-                    <p class="h5 text-grey">Crypto is cool money. Peer-to-peer, decentralized and permissionless cash
-                        like bitcoin opens all
-                        sorts of
-                        opportunities for entrepreneurs, employers and employees alike. Without cumbersome banks,
-                        excessive fees
-                        and regulations standing in the way, sending and receiving payments for services is easier than
-                        ever.
+                    <p class="h5 text-grey">The safe way to auction Crypto. Cryptbids never holds customer funds or
+                        stores your payment information. Use the third-party wallet of your choice for complete control
+                        over your coins and tokens.
                     </p>
                 </div>
                 <div class="col-12 col-md-6">
@@ -159,6 +157,37 @@
             </div>
         </div>
     </div>
+    <!-- Join our community -->
+    {{-- <section class="community-sec padding-top-150 padding-bottom-150">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="sm-intro">
+                        <h2>Join our community</h2>
+                        <ul class="socials">
+                            <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#."><i class="fab fa-github"></i></a></li>
+                            <li><a href="#."><i class="fab fa-telegram"></i></a></li>
+                            <li><a href="#."><i class="fab fa-gitter"></i></a></li>
+                            <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#."><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#."><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="news-letter">
+                        <h2>Subscribe to our newsletter</h2>
+                        <form>
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
 </div>
 @section('page-scripts')
     <script src="{{ asset('js/pages-js/home-page.js') }}"></script>

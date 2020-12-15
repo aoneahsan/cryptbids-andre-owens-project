@@ -154,12 +154,16 @@ img {
 }
 .btn-inverse {
     background: #fdc30b;
+    border: 2px solid #fdc30b;
     color: #0c0e11;
 }
 .btn-inverse:hover {
     background: #0c0e11;
     color: #fff;
 }
+/* header a.btn-inverse {
+    border: 2px solid #fdc30b;
+} */
 .btn-white {
     background: #fff;
     color: #ab4e52 !important;
@@ -376,6 +380,7 @@ header .logo {
     float: left;
     position: relative;
     max-width: 120px;
+    left: -2.5vw;
 }
 header .logo img {
     z-index: 3;
@@ -414,7 +419,7 @@ header .sticky {
     -o-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
 }
-header .navbar li a {
+header .navbar li a:not(.btn-inverse) {
     font-size: 14px;
     color: #fff;
     font-weight: 600;
@@ -425,7 +430,7 @@ header .navbar li a {
     text-transform: uppercase;
     display: inline-block;
 }
-header .navbar li a:before {
+header .navbar li a:not(.btn-inverse):before {
     width: 0px;
     margin: 0px auto;
     position: absolute;
@@ -441,10 +446,10 @@ header .navbar li a:before {
     -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
-header .navbar li a:hover:before {
+header .navbar li a:not(.btn-inverse):hover:before {
     width: 100%;
 }
-header .navbar li.active a:before {
+header .navbar li.active a:not(.btn-inverse):before {
     width: 100%;
     margin: 0px auto;
     position: absolute;
@@ -460,8 +465,8 @@ header .navbar li.active a:before {
     -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
-.nav > li > a:focus,
-.nav > li > a:hover {
+.nav > li > a:not(.btn-inverse):focus,
+.nav > li > a:not(.btn-inverse):hover {
     background: none;
 }
 .ownmenu .nav .dropdown-menu {
@@ -1070,8 +1075,8 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 			Community
 ========================================================*/
 .community-sec {
-    background: url(../../images/com-bg.jpg) top center no-repeat;
-    background-size: cover;
+    background: url(./../../images/cryptbids/cryptbids-bg-4.jpg) 8% 5% repeat;
+    background-size: contain;
     z-index: 1;
 }
 .community-sec:before {
