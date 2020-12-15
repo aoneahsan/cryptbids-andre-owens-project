@@ -41,4 +41,6 @@ Route::get('/career', Career::class)->name('career');
 Route::get('/disclaimer', Disclaimer::class)->name('disclaimer');
 Route::get('/terms-and-conditions', TermsAndConditions::class)->name('terms-and-conditions');
 
+Route::get('/logout', 'App\Http\Controllers\SystemController@logout')->name('logout');
+
 Route::redirect('/{any}', '/')->where('any', '.*');
