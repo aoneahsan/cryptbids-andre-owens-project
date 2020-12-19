@@ -2,7 +2,7 @@
   <!-- https://www.npmjs.com/package/vue-element-loading -->
   <vue-loading background-color="rgba(0,0,0,.85)" :active="loadingStatus">
     <img
-      class="img-responsive"
+      class="img-responsive page-loading-img"
       src="images/cryptbids/cryptbids-logo.png"
       width="250px"
       height="auto"
@@ -34,7 +34,7 @@ export default {
 .velmld-spinner {
   transform: none !important;
 }
-img {
+.page-loading-img {
   position: fixed;
   top: 0;
   bottom: 0;

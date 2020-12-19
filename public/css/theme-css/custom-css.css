@@ -130,9 +130,13 @@
 /* About Us Page CSS - Starts */
 .about-us__hero-section {
     background-size: cover !important;
+}
+.about-us__hero-section--1,
+.about-us__hero-section--2,
+.about-us__hero-section--3 {
     height: 100vh !important;
 }
-.about-us__hero-section .about-us__hero-section--inner {
+.about-us__hero-section--1 .about-us__hero-section--inner {
     left: 50%;
     position: absolute;
     top: 50%;
@@ -149,7 +153,15 @@
 }
 .about-us__hero-section--2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
-        url("./../../images/cryptbids/cryptbids-bg-6.jpg");
+        url("./../../images/cryptbids/cryptbids-bg-4.jpg");
+}
+.about-us__hero-section--3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
+        url("./../../images/cryptbids/cryptbids-bg-9.jpg");
+}
+.about-us__hero-section--4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
+        url("./../../images/cryptbids/cryptbids-bg-3.jpg");
 }
 
 /* About Us Page CSS - Ends */

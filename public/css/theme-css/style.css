@@ -1580,7 +1580,7 @@ footer .rights a.active {
 }
 .accordion .panel-default > .panel-heading a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
     font-weight: 600;
     padding: 10px;
@@ -1592,7 +1592,7 @@ footer .rights a.active {
 .accordion .panel {
     box-shadow: none;
     border-radius: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     position: relative;
 }
 .accordion .panel-body {

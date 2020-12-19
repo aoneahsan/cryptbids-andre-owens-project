@@ -3499,6 +3499,89 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3587,6 +3670,88 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../Header/Header */ "./resources/js/Pages/Frontend/Header/Header.vue");
 /* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../Footer/Footer */ "./resources/js/Pages/Frontend/Footer/Footer.vue");
 /* harmony import */ var _PageLoader_PageLoader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../PageLoader/PageLoader */ "./resources/js/Pages/Frontend/PageLoader/PageLoader.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3810,6 +3975,442 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../Header/Header */ "./resources/js/Pages/Frontend/Header/Header.vue");
 /* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../Footer/Footer */ "./resources/js/Pages/Frontend/Footer/Footer.vue");
 /* harmony import */ var _PageLoader_PageLoader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../PageLoader/PageLoader */ "./resources/js/Pages/Frontend/PageLoader/PageLoader.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -6435,7 +7036,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".velmld-spinner {\n  transform: none !important;\n}\nimg {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin: auto;\n  z-index: 11111111;\n}\n", ""]);
+exports.push([module.i, ".velmld-spinner {\n  transform: none !important;\n}\n.page-loading-img {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  margin: auto;\n  z-index: 11111111;\n}\n", ""]);
 
 // exports
 
@@ -52331,6 +52932,10 @@ var render = function() {
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
+      _vm._m(2),
+      _vm._v(" "),
+      _vm._m(3),
+      _vm._v(" "),
       _c("Footer")
     ],
     1
@@ -52352,7 +52957,7 @@ var staticRenderFns = [
               _c("span", { staticClass: "color-primary" }, [_vm._v("WE?")])
             ]),
             _vm._v(" "),
-            _c("h5", { staticClass: "color-white" }, [
+            _c("h5", { staticClass: "color-white mb-0 mb-md-4" }, [
               _vm._v(
                 "\n          Cryptbids is an E-commerce marketplace for undesirable digital\n          currencies, which also serves as an auction company offering\n          services in several regions, including the United States, European\n          Union, South East Asia and more.\n        "
               )
@@ -52371,15 +52976,144 @@ var staticRenderFns = [
       { staticClass: "about-us__hero-section about-us__hero-section--2" },
       [
         _c("div", { staticClass: "about-us__hero-section--inner" }, [
-          _c("div", { staticClass: "container text-center" }, [
-            _c("h1", { staticClass: "color-white" }, [
-              _vm._v("\n          WHO ARE\n          "),
-              _c("span", { staticClass: "color-primary" }, [_vm._v("WE?")])
-            ]),
-            _vm._v(" "),
-            _c("h4", { staticClass: "color-white" }, [
-              _vm._v(
-                "\n          Cryptbids is an E-commerce marketplace for undesirable digital\n          currencies, which also serves as an auction company offering\n          services in several regions, including the United States, European\n          Union, South East Asia and more.\n        "
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12 col-md-5" }),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-md-7 padding-top-100" }, [
+                _c("h1", { staticClass: "color-white" }, [
+                  _vm._v("\n              THE IDEA BEHIND\n              "),
+                  _c("span", { staticClass: "color-primary d-block" }, [
+                    _vm._v("CRYPTBIDS")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("h5", { staticClass: "color-white mb-0 mb-md-4" }, [
+                  _vm._v(
+                    "\n              Trading cryptocurrency has become one of the most widespread\n              financial activities over the last few years. For a good number\n              of people, it represents their first experience of buying and\n              selling assets for profit. Beginners can often have a hard time\n              dealing with the intricacies of cryptocurrency trading.\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h5", { staticClass: "color-white mb-0 mb-md-4" }, [
+                  _vm._v(
+                    "\n              Are you new to cryptocurrency and just getting started? No\n              Problem! Digital assets may sound puzzling, but we are here to\n              assist you!\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h5", { staticClass: "color-white mb-0 mb-md-4" }, [
+                  _vm._v(
+                    "\n              Cryptbids began as a realization that specific cryptocurrencies\n              are complicated. We felt the need for a robust system that\n              enables buyers to buy or sell without running into any issues\n              and charges.\n            "
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h5", { staticClass: "color-white mb-0 mb-md-4" }, [
+                  _vm._v(
+                    "\n              We envision a P2P marketplace that is easy to use and safe to\n              utilize.\n            "
+                  )
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "about-us__hero-section about-us__hero-section--3" },
+      [
+        _c("div", { staticClass: "about-us__hero-section--inner" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12 col-md-7 padding-top-200" }, [
+                _c("h1", { staticClass: "color-white" }, [
+                  _vm._v("\n              EASY FOR\n              "),
+                  _c("span", { staticClass: "color-primary" }, [
+                    _vm._v("BEGINNERS")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("h5", { staticClass: "color-white mb-0 mb-md-4" }, [
+                  _vm._v(
+                    "\n              Instead of diving into complexities, we made our market\n              machinery simple, robust, and devoid of issues/charges. In order\n              to achieve simplicity, we made our dealings Peer to Peer. P2P is\n              safer and easier to use.\n            "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-md-5" })
+            ])
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "about-us__hero-section about-us__hero-section--4" },
+      [
+        _c("div", { staticClass: "about-us__hero-section--inner" }, [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12 col-md-5" }),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-12 col-md-7 padding-top-100 padding-bottom-80"
+                },
+                [
+                  _c("h1", { staticClass: "color-white" }, [
+                    _vm._v("\n              CRYPTBIDS\n              "),
+                    _c("span", { staticClass: "color-primary" }, [
+                      _vm._v("SECURITY")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("h5", { staticClass: "color-white mb-0 mb-md-4" }, [
+                    _vm._v(
+                      "\n              > To ensure enhanced security of transactions, we accept\n              Bitcoin, Ethereum, and Litecoin to process all our payments.\n              "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n              > We DO NOT accept other payment processes like bank or\n              debit/credit card transactions (Because your privacy is\n              important to us).\n              "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n              > CRYPTBiDS recommends two-step authentication for your payment\n              processes in order to maintain the safety of breach/hack.\n              "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n              > To protect your transactions by enforcing 30-day security for\n              buyers. This is to make sure you receive what you pay for or get\n              a transaction recovery if you did not receive the item.\n              "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n              > To avoid deception, we do not allow payments outside\n              CRYPTBiDS. This could easily lead to losing your money to\n              scammers. Moreover, it ruins the trust of our customers in our\n              services.\n              "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n              > We allow only verified sellers to sell cryptocurrency. We\n              suspend the listings of unverified sellers.\n              "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n              > Listing items in the wrong category also leads to account\n              suspension.\n            "
+                    )
+                  ])
+                ]
               )
             ])
           ])
@@ -52411,6 +53145,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { staticClass: " bg-dark" },
     [
       _c("PageLoader", { attrs: { show: true, time: 800 } }),
       _vm._v(" "),
@@ -52419,7 +53154,8 @@ var render = function() {
       _c(
         "div",
         {
-          staticClass: "full-screen padding-top-100 padding-bottom-100 bg-dark"
+          staticClass:
+            "full-screen padding-top-150 padding-bottom-100 mb-0 mb-md-5"
         },
         [
           _c("div", { staticClass: "container" }, [
@@ -52428,18 +53164,22 @@ var render = function() {
                 "div",
                 {
                   staticClass:
-                    "col-12 col-md-6 text-center text-md-left mb-5 mb-md-0"
+                    "col-12 col-md-6 text-center text-md-left mb-0 mb-md-5 mb-md-0"
                 },
                 [
                   _c("h1", { staticClass: "fs-huge color-white" }, [
                     _vm._v("Careers at Cryptbids")
                   ]),
                   _vm._v(" "),
-                  _c("h2", { staticClass: "color-white font-light mb-5" }, [
-                    _vm._v(
-                      "\n            Join our global community team of people who have discovered their\n            pathway to the crypto world with Cryptbids.\n          "
-                    )
-                  ]),
+                  _c(
+                    "h3",
+                    { staticClass: "color-white font-light mb-0 mb-md-5" },
+                    [
+                      _vm._v(
+                        "\n            Join our global community team of people who have discovered their\n            pathway to the crypto world with Cryptbids.\n          "
+                      )
+                    ]
+                  ),
                   _vm._v(" "),
                   _c(
                     "InertiaLink",
@@ -52509,12 +53249,130 @@ var render = function() {
       _vm._v(" "),
       _c("Header"),
       _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
       _c("Footer")
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("footer", { attrs: { id: "contact" } }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "contact" }, [
+          _c(
+            "h1",
+            { staticClass: "color-white mb-4 mb-md-5 text-center d-block" },
+            [_vm._v("\n          Get In Touch With us\n        ")]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "success-msg", attrs: { id: "contact_message" } },
+            [
+              _c("i", { staticClass: "fa fa-paper-plane-o" }),
+              _vm._v(
+                "Thank You. Your Message has been\n          Submitted\n        "
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "form",
+            {
+              staticClass: "contact-form",
+              attrs: {
+                role: "form",
+                id: "contact_form",
+                method: "post",
+                onSubmit: "return false"
+              }
+            },
+            [
+              _c("ul", { staticClass: "row nolist-style" }, [
+                _c("li", { staticClass: "col-sm-4" }, [
+                  _c("label", [
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        name: "name",
+                        id: "name",
+                        placeholder: "Name"
+                      }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "col-sm-4" }, [
+                  _c("label", [
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        name: "email",
+                        id: "email",
+                        placeholder: "Email"
+                      }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "col-sm-4" }, [
+                  _c("label", [
+                    _c("input", {
+                      staticClass: "form-control",
+                      attrs: {
+                        type: "text",
+                        name: "company",
+                        id: "company",
+                        placeholder: "Phone"
+                      }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "col-sm-12" }, [
+                  _c("label", [
+                    _c("textarea", {
+                      staticClass: "form-control",
+                      attrs: {
+                        name: "message",
+                        id: "message",
+                        rows: "5",
+                        placeholder: "Message"
+                      }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "col-sm-12 text-left" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-inverse",
+                      attrs: {
+                        type: "submit",
+                        value: "submit",
+                        id: "btn_submit",
+                        onClick: "proceed();"
+                      }
+                    },
+                    [_vm._v("\n                SUBMIT\n              ")]
+                  )
+                ])
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -52787,12 +53645,728 @@ var render = function() {
       _vm._v(" "),
       _c("Header"),
       _vm._v(" "),
+      _c(
+        "section",
+        {
+          staticClass: "light-bg padding-top-80 padding-bottom-150",
+          attrs: { id: "team" }
+        },
+        [
+          _c("div", { staticClass: "container" }, [
+            _c("div", { staticClass: "heading text-center" }, [
+              _c("h2", [_vm._v("Frequently asked questions")]),
+              _vm._v(" "),
+              _c(
+                "p",
+                [
+                  _vm._v(
+                    "\n          if you can't find the answer to your question below, then we will be\n          more than happy to help you out, just contact us\n          "
+                  ),
+                  _c(
+                    "InertiaLink",
+                    { attrs: { href: _vm.route("contact-us") } },
+                    [_vm._v("here")]
+                  )
+                ],
+                1
+              )
+            ]),
+            _vm._v(" "),
+            _vm._m(0)
+          ])
+        ]
+      ),
+      _vm._v(" "),
       _c("Footer")
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-12" }, [
+        _c(
+          "div",
+          { staticClass: "panel-group accordion", attrs: { id: "accordion" } },
+          [
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseOne1"
+                      }
+                    },
+                    [_vm._v("\n                    What is Cryptbids?")]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse in",
+                  attrs: { id: "collapseOne1" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  Cryptbids is an E-commerce marketplace for undesirable\n                  digital currencies, which also serves as an auction company\n                  offering services in several regions, including the United\n                  States, European Union, South East Asia and more.\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  We present a P2P platform whereby clients can auction their\n                  cryptocurrency within four different categories, including,\n                  Application Cryptocurrencies, Platform Cryptocurrencies,\n                  Transactional Cryptocurrencies, and Utility\n                  Cryptocurrencies. You can rely on us to transact securely\n                  and with peace of mind.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseTwo2"
+                      }
+                    },
+                    [_vm._v("\n                    What coins are supported?")]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseTwo2" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  Currently, we support Bitcoin BTC, Ethereum ETH, and\n                  Litecoin LTC.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseThree3"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    What Items can be sold on Cryptbids?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseThree3" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  You can sell any cryptocurrency within four different\n                  categories, including, Application Cryptocurrencies,\n                  Platform Cryptocurrencies, Transactional Cryptocurrencies,\n                  and Utility Cryptocurrencies.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapsefour4"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    How is the Bitcoin Price Calculated?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapsefour4" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  We use BitcoinAverage to get the prices for Bitcoin as a\n                  fair average price for both buyers and sellers regardless of\n                  the exchange they use.\n                "
+                    )
+                  ])
+                ]
+              )
+            ])
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6" }, [
+        _c(
+          "div",
+          { staticClass: "panel-group accordion", attrs: { id: "accordion" } },
+          [
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseOne5"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    Offering to Buy or Sell outside of Cryptbids"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse in",
+                  attrs: { id: "collapseOne5" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  It is against Cryptbids’s Terms to contact another user\n                  through our site and services and offer to finalize the deal\n                  outside of Cryptbids.\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  If you receive an offer to buy or sell outside Cryptbids,\n                  please report it.\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  Make sure you follow these guidelines. If you don’t, you may\n                  be subject to a range of actions, including suspension of\n                  your account.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseTwo6"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    I have received an email asking me to confirm my password,\n                    what is this?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseTwo6" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  Cryptbids will NEVER ask you to confirm your password. We do\n                  not need your password for any purposes. Cryptbids will ONLY\n                  send emails from @Cryptbids.com email addresses. Any emails\n                  received claiming to be from Cryptbids and asking for your\n                  password is an attempt to gain access to your profile. Be\n                  very careful with phishing attempts and fake emails and\n                  report such activities to the support team ASAP so the\n                  correct actions can be taken to protect your account. Please\n                  enable Google 2fa to add another layer of security to your\n                  account.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseThree7"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    How much are your Fees and Charges?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseThree7" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  Posting/Listing on CRYPTBiDS is completely FREE!\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  Charges occur on items sale only.\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  Once an item is sold/auctioned CRYPTBiDS will charge a total\n                  of 20% of the complete transaction (10% buyer, 10% seller).\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  Example: In a $100 transaction, the seller and buyer will\n                  pay 10% each (meaning $10 each).\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  In case the deal is canceled (by seller or buyer), COMPLETE\n                  amount will be returned back to the seller, without a single\n                  percentage deducted. (Cancelled orders will not be charged)\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  In order to secure each transaction, payment is paid in its\n                  full: no installments!\n                  "
+                    ),
+                    _c("br"),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  Transactions must be completed within 48 hours.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapsefour8"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    How does the fees system work?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapsefour8" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  Fees are calculated and deducted from the final price of any\n                  sold items, payment is sent to Cryptbids’s offline wallets\n                  where fees get deducted before sending the remaining amount\n                  to the seller.\n                "
+                    )
+                  ])
+                ]
+              )
+            ])
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6" }, [
+        _c(
+          "div",
+          { staticClass: "panel-group accordion", attrs: { id: "accordion" } },
+          [
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseOne9"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    How is the Litecoin Price Calculated?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseOne9" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  We use coindesk to get the average price to calculate the\n                  price for Litecoin.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseTwo-1"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    How is the Ethereum Price Calculated?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseTwo-1" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  We use ethereumprice Ethereum Calculator & Conversion\n                  average price to calculate the price for Ethereum.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseThree-1"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    Do I have to register to participate in any activity on\n                    Cryptbids?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseThree-1" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  Yes, any buying, selling, or posting on Cryptbids requires\n                  the user to be registered.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapsefour-1"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    Why do I need to supply my Bitcoin, Litecoin or Ethereum\n                    addresses before I can list?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapsefour-1" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  Cryptbids does not provide hosted wallets for its users. All\n                  transactions are P2P made between buyer and seller with\n                  provided wallet addresses. If the address is deemed wrong or\n                  if the seller deletes the address after they list an item,\n                  we will contact them to advise them to update their address.\n                  If they fail to update the address within a 30-day time\n                  span, we will refund the coins to the buyer.\n                "
+                    )
+                  ])
+                ]
+              )
+            ])
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-12" }, [
+        _c(
+          "div",
+          { staticClass: "panel-group accordion", attrs: { id: "accordion" } },
+          [
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseOne-11"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    How can I withdraw funds from Cryptbids.com?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseOne-11" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  We do not hold any funds for neither the seller or the buyer\n                  on our site, all funds are transferred P2P. The buyer’s\n                  funds can be refunded manually either when a seller cancels\n                  a sale or if the buyer has requested a refund.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseTwo-12"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    How much time do I have to pay for an item I won and what\n                    happens if I don’t pay?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseTwo-12" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  When an auction or a fixed price item is won, you are\n                  expected to pay for the item in full within 48 hours, in the\n                  case that you are unable to pay for the item for whatever\n                  reason, it’s your responsibility to notify the seller or\n                  Cryptbids, failing to do so will result in action being\n                  taken and your account could get suspended.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapseThree-13"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    How can I delete an item I posted?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapseThree-13" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  You can delete items you’ve posted from your account page\n                  under the “Active Listings” menu. If you want to delete a\n                  specific purchase of an item, you can “cancel” a sale, which\n                  will leave the remaining quantity of your item live but will\n                  only delete that single sale.\n                "
+                    )
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel panel-default" }, [
+              _c("div", { staticClass: "panel-heading" }, [
+                _c("h4", { staticClass: "panel-title" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "collapsed",
+                      attrs: {
+                        "data-toggle": "collapse",
+                        "data-parent": "#accordion",
+                        href: "#collapsefour-14"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                    What can I do if the buyer never pays for an item?"
+                      )
+                    ]
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "panel-collapse collapse",
+                  attrs: { id: "collapsefour-14" }
+                },
+                [
+                  _c("div", { staticClass: "panel-body" }, [
+                    _vm._v(
+                      "\n                  If you do not receive an email notifying you that a payment\n                  was received for your sold item within 48 hours of the sale,\n                  feel free to report your item and make sure you leave the\n                  appropriate feedback to the buyer. No further action needs\n                  to be taken after that. Items will automatically be void and\n                  any funds received later then 48 hours from the buyer will\n                  be returned back to them.\n                "
+                    )
+                  ])
+                ]
+              )
+            ])
+          ]
+        )
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -52843,7 +54417,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
             _c("div", { staticClass: "col-12 mb-4 mb-md-5 px-0 px-md-5" }, [
-              _c("h3", { staticClass: "text-center mb-5 color-white" }, [
+              _c("h2", { staticClass: "text-center mb-5 color-white" }, [
                 _vm._v(
                   "\n            CRYPTBiDS Fees Structure – Simple, Fast, & Secure!\n          "
                 )
@@ -53941,7 +55515,7 @@ var render = function() {
     },
     [
       _c("img", {
-        staticClass: "img-responsive",
+        staticClass: "img-responsive page-loading-img",
         attrs: {
           src: "images/cryptbids/cryptbids-logo.png",
           width: "250px",
