@@ -1,0 +1,188 @@
+.color-primary {
+    color: #fdc30b;
+}
+.color-white {
+    color: white;
+}
+.text-heavy {
+    font-weight: 900;
+}
+.auction-join-us__video {
+    width: 75%;
+    margin: auto;
+    height: 450px;
+}
+.auction-benifits {
+    background: url("./../../images/cryptbids/cryptbids-bg-8.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fs-huge {
+    font-size: 3.3rem;
+}
+.bg-lightgrey {
+    background-color: #f4f4f4;
+}
+.for-you__currencies {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.for-you__currency {
+    flex: 1;
+    max-width: 100px;
+}
+.footer-sections ul li a {
+    color: grey;
+}
+.footer-sections ul li:hover a,
+.footer-sections ul li a:hover,
+.footer-sections ul li a.active {
+    color: white;
+}
+.footer-sections ul.socials li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid grey;
+    font-size: 16px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.footer-sections ul.socials li,
+.footer-sections ul.socials li a,
+.footer-sections ul.socials li * {
+    padding-top: 4px;
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+.footer-sections ul.socials li:hover {
+    border-color: white;
+}
+.disclaimer h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+.disclaimer h3.color-white,
+.disclaimer p.color-white {
+    color: white !important;
+}
+.disclaimer p {
+    font-size: 16px;
+}
+.disclaimer ul {
+    padding-left: 20px !important;
+}
+.disclaimer ul li {
+    list-style: disc !important;
+    margin-bottom: 9px;
+}
+.fees-page-bg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
+        url("./../../images/cryptbids/cryptbids-bg-6.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+.full-screen {
+    height: 98vh;
+}
+/* Hero section - hero-section__register-form */
+.hero-section__register-form {
+    background: #fdc30b;
+    border-radius: 30px;
+    width: 50%;
+    text-align: left;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.hero-section__register-form .input {
+    width: 64%;
+    padding: 14px;
+    display: inline-block;
+    outline: none;
+    border-radius: 30px 0 0 30px;
+    -webkit-border-radius: 30px 0 0 30px;
+    -moz-border-radius: 30px 0 0 30px;
+    -ms-border-radius: 30px 0 0 30px;
+    -o-border-radius: 30px 0 0 30px;
+}
+.hero-section__register-form .button {
+    width: 35%;
+    outline: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    color: white;
+}
+
+/* About Us Page CSS - Starts */
+.about-us__hero-section {
+    background-size: cover !important;
+    height: 100vh !important;
+}
+.about-us__hero-section .about-us__hero-section--inner {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.about-us__hero-section--1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
+        url("./../../images/cryptbids/cryptbids-bg-5.jpg");
+}
+.about-us__hero-section--2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
+        url("./../../images/cryptbids/cryptbids-bg-6.jpg");
+}
+
+/* About Us Page CSS - Ends */
+
+/* Responsive CSS Starts */
+@media all and (min-width: 1300px) {
+    .auction-join-us__video {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 1200px) {
+}
+
+@media all and (max-width: 980px) {
+    .for-you__currency {
+        margin: 0 20px 30px 20px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .position-center-center {
+        background-color: #343a40;
+    }
+    .auction-join-us__video {
+        width: 96%;
+        height: 380px;
+    }
+    .for-you__currencies {
+        padding: 0 50px;
+        flex-wrap: wrap;
+    }
+    .full-screen {
+        height: 100% !important;
+    }
+}

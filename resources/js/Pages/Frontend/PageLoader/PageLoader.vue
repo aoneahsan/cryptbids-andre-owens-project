@@ -1,0 +1,46 @@
+<template>
+  <!-- https://www.npmjs.com/package/vue-element-loading -->
+  <vue-loading background-color="rgba(0,0,0,.85)" :active="loadingStatus">
+    <img
+      class="img-responsive"
+      src="images/cryptbids/cryptbids-logo.png"
+      width="250px"
+      height="auto"
+    />
+  </vue-loading>
+</template>
+
+<script>
+export default {
+  props: {
+    show: Boolean,
+    time: Number,
+  },
+  data() {
+    return {
+      loadingStatus: this.show,
+    };
+  },
+  beforeMount() {},
+  created() {
+    setTimeout(() => {
+      this.loadingStatus = false;
+    }, this.time);
+  },
+};
+</script>
+
+<style>
+.velmld-spinner {
+  transform: none !important;
+}
+img {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 11111111;
+}
+</style>
