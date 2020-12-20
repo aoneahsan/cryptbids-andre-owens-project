@@ -10,6 +10,7 @@ import PortalVue from "portal-vue";
 import VueParticles from "vue-particles";
 import VueScrollTo from "vue-scrollto";
 import VueLoading from "vue-element-loading";
+import VueYoutube from "vue-youtube";
 
 Vue.mixin({ methods: { route } });
 Vue.use(InertiaApp);
@@ -18,6 +19,7 @@ Vue.use(PortalVue);
 Vue.use(VueParticles);
 Vue.use(VueScrollTo);
 Vue.component("VueLoading", VueLoading);
+Vue.use(VueYoutube, { global: true, componentId: "youtube" });
 
 const app = document.getElementById("app");
 

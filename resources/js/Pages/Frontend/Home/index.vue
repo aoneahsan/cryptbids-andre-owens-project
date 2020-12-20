@@ -99,15 +99,13 @@
           <!-- <span class="d-block h4 text-center w-100"
             >Get in on the auction in 3 simple steps.</span
           > -->
-          <div class="auction-join-us__video margin-top-60">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/HqyFTk0LxyA"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+          <div class="auction-join-us__video margin-top-60 text-center">
+            <youtube
+              :video-id="'HqyFTk0LxyA'"
+              ref="youtube"
+              class="d-inline-block"
+              :fitParent="true"
+            ></youtube>
           </div>
         </div>
       </div>

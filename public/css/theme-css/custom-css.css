@@ -8,9 +8,8 @@
     font-weight: 900;
 }
 .auction-join-us__video {
-    width: 75%;
+    width: 80%;
     margin: auto;
-    height: 450px;
 }
 .auction-benifits {
     background: url("./../../images/cryptbids/cryptbids-bg-8.png");
@@ -169,7 +168,7 @@
 /* Responsive CSS Starts */
 @media all and (min-width: 1300px) {
     .auction-join-us__video {
-        width: 70%;
+        width: 75%;
     }
 }
 
@@ -188,7 +187,6 @@
     }
     .auction-join-us__video {
         width: 96%;
-        height: 380px;
     }
     .for-you__currencies {
         padding: 0 50px;
@@ -196,5 +194,20 @@
     }
     .full-screen {
         height: 100% !important;
+    }
+    .hero-section__register-form {
+        width: 96%;
+    }
+    .hero-section__register-form .input {
+        width: 100%;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    .hero-section__register-form .button {
+        width: 100%;
+        margin: 16px 0 6px 0;
     }
 }
