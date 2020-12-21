@@ -102,11 +102,6 @@
               >Disclaimer
             </InertiaLink>
             <InertiaLink
-              class="request()->is('faqs') ? 'active' : ''"
-              :href="route('faqs')"
-              >Faqs
-            </InertiaLink>
-            <InertiaLink
               class="request()->is('terms-and-conditions') ? 'active' : ''"
               :href="route('terms-and-conditions')"
               >Terms & Conditions
