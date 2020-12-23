@@ -6,10 +6,12 @@
         <div class="row">
           <div class="col-12 col-sm-6 col-md-3 pl-0">
             <div class="w-100 text-center text-md-left mt-n3 mb-4">
+              <InertiaLink :href="route('home')">
               <img
                 src="images/cryptbids/cryptbids-logo.png"
                 class="col-12 col-sm-10 pl-0 d-inline-block"
               />
+              </InertiaLink>
             </div>
             <p class="color-white">
               Join a global community of people who have discovered their
@@ -58,29 +60,29 @@
             <h5 class="color-white mb-4">Community</h5>
             <ul class="socials">
               <li>
-                <InertiaLink :href="route('home')"
+                <a href="https://www.facebook.com/Cryptbids-101347718182855" target="_blank" role="no-follow"
                   ><i class="fab fa-facebook-f"></i
-                ></InertiaLink>
+                ></a>
               </li>
               <li>
-                <InertiaLink :href="route('home')"
+                <a href="https://twitter.com/cryptbids" target="_blank" role="no-follow"
                   ><i class="fab fa-twitter"></i
-                ></InertiaLink>
+                ></a>
               </li>
-              <li>
-                <InertiaLink :href="route('home')"
+              <!-- <li>
+                <a href="home" target="_blank" role="no-follow"
                   ><i class="fab fa-github"></i
-                ></InertiaLink>
-              </li>
+                ></a>
+              </li> -->
               <li>
-                <InertiaLink :href="route('home')"
+                <a href="https://www.instagram.com/cryptbids/" target="_blank" role="no-follow"
                   ><i class="fab fa-instagram"></i
-                ></InertiaLink>
+                ></a>
               </li>
               <li>
-                <InertiaLink :href="route('home')"
+                <a href="https://www.youtube.com/channel/UCh7GhCLCzA1zW_1RSPiiMWw?view_as=subscriber" target="_blank" role="no-follow"
                   ><i class="fab fa-youtube"></i
-                ></InertiaLink>
+                ></a>
               </li>
             </ul>
           </div>
