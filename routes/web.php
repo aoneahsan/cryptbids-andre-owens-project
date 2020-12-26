@@ -4,17 +4,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -25,6 +14,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('/')->name('home')->uses('Frontend\HomeController@render');
 
+Route::get('/login')->name('login')->uses('Frontend\PagesController@Login');
 Route::get('/about-us')->name('about-us')->uses('Frontend\PagesController@AboutUs');
 Route::get('/contact-us')->name('contact-us')->uses('Frontend\PagesController@ContactUs');
 Route::get('/privacy-policy')->name('privacy-policy')->uses('Frontend\PagesController@PrivacyPolicy');

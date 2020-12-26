@@ -10,7 +10,8 @@ class PagesController extends Controller
 {
     public function AboutUs()
     {
-        return Inertia::render("Frontend/AboutUs/AboutUs");
+        // Inertia::setRootView('admin-panel');
+        return Inertia::render("Frontend/AboutUs/AboutUs", []);
     }
 
     public function ContactUs()
@@ -46,5 +47,11 @@ class PagesController extends Controller
     public function Career()
     {
         return Inertia::render("Frontend/Career/Career");
+    }
+
+    public function Login()
+    {
+        Inertia::setRootView('layouts.cryptic-signup');
+        return Inertia::render("Frontend/Login/Login");
     }
 }
