@@ -93,8 +93,8 @@
                             --}}
                             <li class="scroll"><a href="#how-it-works">How it works</a> </li>
                             @auth
-                                <li class="{{ request()->is('logout') ? 'active' : '' }}"> <a
-                                        href="{{ route('logout') }}" class="btn btn-inverse py-2">Logout</a> </li>
+                                <li class="{{ request()->is('logout') ? 'active' : '' }}"> <a href="{{ route('logout') }}"
+                                        class="btn btn-inverse py-2">Logout</a> </li>
                             @endauth
                             @guest
                                 <li class="{{ request()->is('login') ? 'active' : '' }}"> <a
@@ -102,108 +102,108 @@
                                 <li class="{{ request()->is('register') ? 'active' : '' }}"> <a
                                         href="{{ route('register') }}" class="btn btn-inverse py-2">Register</a> </li>
                             @endguest
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <div class="clearfix"></div>
-    </header>
-    {{-- Page Content Starts --}}
-    {{ $slot }}
-    {{-- Page Content Ends --}}
-    <!-- Footer -->
-    <footer id="contact">
-        <div class="footer-sections">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-3 pl-0">
-                        <div class="w-100 text-center text-md-left mt-n3 mb-4">
-                            <img src="{{ asset('images/cryptbids/cryptbids-logo.png') }}"
-                                class="col-12 col-sm-10 pl-0 d-inline-block" />
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </header>
+        {{-- Page Content Starts --}}
+        {{ $slot }}
+        {{-- Page Content Ends --}}
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="footer-sections">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-3 pl-0">
+                            <div class="w-100 text-center text-md-left mt-n3 mb-4">
+                                <img src="{{ asset('images/cryptbids/cryptbids-logo.png') }}"
+                                    class="col-12 col-sm-10 pl-0 d-inline-block" />
+                            </div>
+                            <p class="color-white">Join a global community of people who have discovered their pathway
+                                to
+                                the crypto world with
+                                Cryptbids.</p>
                         </div>
-                        <p class="color-white">Join a global community of people who have discovered their pathway
-                            to
-                            the crypto world with
-                            Cryptbids.</p>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <h5 class="color-white mb-4">About Us</h5>
-                        <ul>
-                            <li>
-                                <a class="{{ request()->is('about-us') ? 'active' : '' }}"
-                                    href="{{ route('about-us') }}">About</a>
-                            </li>
-                            <li>
-                                <a class="{{ request()->is('career') ? 'active' : '' }}"
-                                    href="{{ route('career') }}">Career</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <h5 class="color-white mb-4">Services</h5>
-                        <ul>
-                            <li>
-                                <a class="{{ request()->is('fees') ? 'active' : '' }}"
-                                    href="{{ route('fees') }}">Fees</a>
-                            </li>
-                            <li>
-                                <a class="{{ request()->is('faqs') ? 'active' : '' }}"
-                                    href="{{ route('faqs') }}">FAQs</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3">
-                        <h5 class="color-white mb-4">Community</h5>
-                        <ul class="socials">
-                            <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#."><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#."><i class="fab fa-github"></i></a></li>
-                            <li><a href="#."><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#."><i class="fab fa-youtube"></i></a></li>
-                        </ul>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <h5 class="color-white mb-4">About Us</h5>
+                            <ul>
+                                <li>
+                                    <a class="{{ request()->is('about-us') ? 'active' : '' }}"
+                                        href="{{ route('about-us') }}">About</a>
+                                </li>
+                                <li>
+                                    <a class="{{ request()->is('career') ? 'active' : '' }}"
+                                        href="{{ route('career') }}">Career</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <h5 class="color-white mb-4">Services</h5>
+                            <ul>
+                                <li>
+                                    <a class="{{ request()->is('fees') ? 'active' : '' }}"
+                                        href="{{ route('fees') }}">Fees</a>
+                                </li>
+                                <li>
+                                    <a class="{{ request()->is('faqs') ? 'active' : '' }}"
+                                        href="{{ route('faqs') }}">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3">
+                            <h5 class="color-white mb-4">Community</h5>
+                            <ul class="socials">
+                                <li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#."><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#."><i class="fab fa-github"></i></a></li>
+                                <li><a href="#."><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#."><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Rights -->
-        <div class="rights">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>© {{ now()->year }} Cryptbids.com. All rights reserved</p>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <a class="{{ request()->is('disclaimer') ? 'active' : '' }}"
-                            href="{{ route('disclaimer') }}">Disclaimer </a>
-                        <a class="{{ request()->is('faqs') ? 'active' : '' }}" href="{{ route('faqs') }}">Faqs </a>
-                        <a class="{{ request()->is('terms-and-conditions') ? 'active' : '' }}"
-                            href="{{ route('terms-and-conditions') }}">Terms & Conditions </a>
-                        <a class="{{ request()->is('privacy-policy') ? 'active' : '' }}"
-                            href="{{ route('privacy-policy') }}">Privacy Policy </a>
-                        <a class="{{ request()->is('contact-us') ? 'active' : '' }}"
-                            href="{{ route('contact-us') }}">Contact Us</a>
+            <!-- Rights -->
+            <div class="rights">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>© {{ now()->year }} Cryptbids.com. All rights reserved</p>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <a class="{{ request()->is('disclaimer') ? 'active' : '' }}"
+                                href="{{ route('disclaimer') }}">Disclaimer </a>
+                            <a class="{{ request()->is('faqs') ? 'active' : '' }}" href="{{ route('faqs') }}">Faqs </a>
+                            <a class="{{ request()->is('terms-and-conditions') ? 'active' : '' }}"
+                                href="{{ route('terms-and-conditions') }}">Terms & Conditions </a>
+                            <a class="{{ request()->is('privacy-policy') ? 'active' : '' }}"
+                                href="{{ route('privacy-policy') }}">Privacy Policy </a>
+                            <a class="{{ request()->is('contact-us') ? 'active' : '' }}"
+                                href="{{ route('contact-us') }}">Contact Us</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</div>
+        </footer>
+    </div>
 
-<!-- GO TO TOP -->
-<a href="#" class="cd-top"><i class="ion-chevron-up"></i></a>
-<!-- GO TO TOP End -->
-@livewireScripts
-<script src="{{ asset('js/theme-js/jquery-1.11.3.min.js') }}"></script>
-<script src="{{ asset('js/theme-js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/theme-js/jquery.counterup.min.js') }}"></script>
-<script src="{{ asset('js/theme-js/jquery.sticky.js') }}"></script>
-<script src="{{ asset('js/theme-js/jquery.magnific-popup.min.js') }}"></script>
-<script src="{{ asset('js/theme-js/main.js') }}"></script>
-@yield('page-scripts')
-<h1 style="display: none">designed and developed by <a href="https://zaions.com" target="_blank"
-        title="zaions.com a group of projects, zaions.com is mainly web & apps services providing company, its main project is learn.zaions.com which a skills training providing website.">Zaions.com</a>
-</h1>
+    <!-- GO TO TOP -->
+    <a href="#" class="cd-top"><i class="ion-chevron-up"></i></a>
+    <!-- GO TO TOP End -->
+    @livewireScripts
+    <script src="{{ asset('js/theme-js/jquery-1.11.3.min.js') }}"></script>
+    <script src="{{ asset('js/theme-js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/theme-js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('js/theme-js/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('js/theme-js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('js/theme-js/main.js') }}"></script>
+    @yield('page-scripts')
+    <h1 style="display: none">designed and developed by <a href="https://zaions.com" target="_blank"
+            title="zaions.com a group of projects, zaions.com is mainly web & apps services providing company, its main project is learn.zaions.com which a skills training providing website.">Zaions.com</a>
+    </h1>
 </body>
 
 </html>
