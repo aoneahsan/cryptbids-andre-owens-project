@@ -131,6 +131,12 @@ export default {
     Header,
     Footer,
   },
+  data() {
+    return {};
+  },
+  created() {
+    console.log(this.$route.params.id);
+  },
 };
 </script>
 

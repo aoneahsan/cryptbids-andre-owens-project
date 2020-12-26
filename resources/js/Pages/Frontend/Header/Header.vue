@@ -8,7 +8,7 @@
           <InertiaLink :href="route('home')">
             <img
               class="img-responsive"
-              src="images/cryptbids/cryptbids-logo.png"
+              src="custom-assets/images/cryptbids-logo.png"
               alt=""
             />
           </InertiaLink>
@@ -55,15 +55,11 @@
               >
             </li> -->
               <!-- @endauth @guest -->
-              <li class="request()->is('login') ? 'active' : ''">
-                <InertiaLink :href="route('login')">Login</InertiaLink>
+              <li class="request()->is('sign-in') ? 'active' : ''">
+                <a href="sign-in">Login</a>
               </li>
               <li class="request()->is('register') ? 'active' : ''">
-                <InertiaLink
-                  :href="route('register')"
-                  class="btn btn-inverse py-2"
-                  >Register</InertiaLink
-                >
+                <a href="register" class="btn btn-inverse py-2">Register</a>
               </li>
               <!-- @endguest -->
             </ul>
@@ -82,8 +78,7 @@ export default {
     InertiaLink,
   },
   data() {
-    return {
-    };
+    return {};
   },
 };
 </script>

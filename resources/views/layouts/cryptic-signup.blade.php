@@ -23,11 +23,10 @@
     <!-- Custom Style -->
     <link href="{{ asset('cryptic-template-assets/css/custom.css') }}" rel="stylesheet">
     <link href="{{ asset('cryptic-template-assets/css/media.css') }}" rel="stylesheet">
-    <link id="ui-current-skin" href="{{ asset('cryptic-template-assets/css/skin-colors/skin-yellow.css') }}" rel="stylesheet">
-    <!-- Custom Font -->
-    <link
-        href="../../fonts.googleapis.com/css7d83.css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    <link id="ui-current-skin" href="{{ asset('cryptic-template-assets/css/skin-colors/skin-yellow.css') }}"
         rel="stylesheet">
+    <!-- Custom Font -->
+    <link href="{{ asset('cryptic-template-assets/css/custom-fonts.css') }}" rel="stylesheet">
 
     {{-- Laravel Mix Imports --}}
     <!-- Styles -->
@@ -39,7 +38,7 @@
 </head>
 
 <body id="register-page" class="nav-md all-pages data_background preloader-off developer-mode"
-    data-background="assets/images/background.png">
+    data-background="cryptic-template-assets/images/background.png">
     {{-- Page Content Starts --}}
     @inertia
     {{-- Page Content Ends --}}

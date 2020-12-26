@@ -12,7 +12,7 @@
     margin: auto;
 }
 .auction-benifits {
-    background: url("./../../images/cryptbids/cryptbids-bg-8.png");
+    background: url("./../images/cryptbids-bg-8.png");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -89,7 +89,7 @@
 }
 .fees-page-bg {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
-        url("./../../images/cryptbids/cryptbids-bg-6.jpg");
+        url("./../images/cryptbids-bg-6.jpg");
     background-size: contain;
     background-attachment: fixed;
 }
@@ -111,6 +111,7 @@
     padding: 14px;
     display: inline-block;
     outline: none;
+    border: none;
     border-radius: 30px 0 0 30px;
     -webkit-border-radius: 30px 0 0 30px;
     -moz-border-radius: 30px 0 0 30px;
@@ -122,6 +123,8 @@
     outline: none;
     text-align: center;
     display: inline-block;
+    border: none;
+    background-color: transparent;
     font-size: 19px;
     color: white;
 }
@@ -148,19 +151,19 @@
 }
 .about-us__hero-section--1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
-        url("./../../images/cryptbids/cryptbids-bg-5.jpg");
+        url("./../images/cryptbids-bg-5.jpg");
 }
 .about-us__hero-section--2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
-        url("./../../images/cryptbids/cryptbids-bg-4.jpg");
+        url("./../images/cryptbids-bg-4.jpg");
 }
 .about-us__hero-section--3 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
-        url("./../../images/cryptbids/cryptbids-bg-9.jpg");
+        url("./../images/cryptbids-bg-9.jpg");
 }
 .about-us__hero-section--4 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.18)),
-        url("./../../images/cryptbids/cryptbids-bg-3.jpg");
+        url("./../images/cryptbids-bg-3.jpg");
 }
 
 /* About Us Page CSS - Ends */
@@ -208,6 +211,8 @@
     }
     .hero-section__register-form .button {
         width: 100%;
+        border: none;
+        background-color: transparent;
         margin: 16px 0 6px 0;
     }
 }

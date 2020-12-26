@@ -49,7 +49,7 @@
           </div>
           <div class="col-12 col-md-4 text-center auction-step">
             <img
-              src="images/cryptbids/auction-step-1.png"
+              src="custom-assets/images/auction-step-1.png"
               class="auction-step__img margin-bottom-30"
             />
             <!-- <span class="auction-step__title margin-bottom-20 h3 d-block"
@@ -66,7 +66,7 @@
           </div>
           <div class="col-12 col-md-4 text-center auction-step">
             <img
-              src="images/cryptbids/auction-step-2.png"
+              src="custom-assets/images/auction-step-2.png"
               class="auction-step__img margin-bottom-30"
             />
             <span class="auction-step__title margin-bottom-20 h3 d-block"
@@ -76,7 +76,7 @@
           </div>
           <div class="col-12 col-md-4 text-center auction-step">
             <img
-              src="images/cryptbids/auction-step-3.png"
+              src="custom-assets/images/auction-step-3.png"
               class="auction-step__img margin-bottom-30"
             />
             <span class="auction-step__title margin-bottom-20 h3 d-block"
@@ -117,7 +117,7 @@
         <div class="row">
           <div class="col-12 col-md-6 pr-0">
             <img
-              src="images/cryptbids/cryptbids-laptop.png"
+              src="custom-assets/images/cryptbids-laptop.png"
               class="auction-benifits__img w-100 mt-5"
             />
           </div>
@@ -203,7 +203,7 @@
           </div>
           <div class="col-12 col-md-6">
             <img
-              src="images/cryptbids/businessman.png"
+              src="custom-assets/images/businessman.png"
               class="w-100 why-auction__img"
             />
           </div>
@@ -225,23 +225,23 @@
           <div class="for-you__currencies mt-4">
             <img
               class="for-you__currency"
-              src="images/cryptbids/crpytbids-currency-1.png"
+              src="custom-assets/images/crpytbids-currency-1.png"
             />
             <img
               class="for-you__currency"
-              src="images/cryptbids/crpytbids-currency-2.png"
+              src="custom-assets/images/crpytbids-currency-2.png"
             />
             <img
               class="for-you__currency"
-              src="images/cryptbids/crpytbids-currency-3.png"
+              src="custom-assets/images/crpytbids-currency-3.png"
             />
             <img
               class="for-you__currency"
-              src="images/cryptbids/crpytbids-currency-4.png"
+              src="custom-assets/images/crpytbids-currency-4.png"
             />
             <img
               class="for-you__currency"
-              src="images/cryptbids/crpytbids-currency-5.png"
+              src="custom-assets/images/crpytbids-currency-5.png"
             />
           </div>
         </div>
@@ -326,8 +326,8 @@ export default {
   },
   methods: {
     registerUser() {
-      this.$inertia.post(route("redirectToRegister"), {
-        userEmail: this.userEmail,
+      this.$inertia.get(route("sign-in"), {
+        email: this.userEmail,
       });
     },
   },

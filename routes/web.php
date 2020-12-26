@@ -14,7 +14,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('/')->name('home')->uses('Frontend\HomeController@render');
 
-Route::get('/login')->name('login')->uses('Frontend\PagesController@Login');
+Route::get('/sign-in')->name('sign-in')->uses('Frontend\PagesController@Login');
 Route::get('/about-us')->name('about-us')->uses('Frontend\PagesController@AboutUs');
 Route::get('/contact-us')->name('contact-us')->uses('Frontend\PagesController@ContactUs');
 Route::get('/privacy-policy')->name('privacy-policy')->uses('Frontend\PagesController@PrivacyPolicy');
@@ -26,8 +26,4 @@ Route::get('/terms-and-conditions')->name('terms-and-conditions')->uses('Fronten
 
 Route::get('/logout', 'SystemController@logout')->name('logout');
 
-Route::post('redirectToRegister', function (Request $request) {
-    return $request;
-})->name('redirectToRegister');
-
-Route::redirect('/{any}', '/')->where('any', '.*');
+// Route::redirect('/{any}', '/')->where('any', '.*');

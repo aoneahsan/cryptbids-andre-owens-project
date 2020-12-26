@@ -3,9 +3,9 @@
     <div class="container st-container st-effect">
       <div class="block-page text-center">
         <a href="index.html"
-          ><img src="assets/images/logo1.png" alt="cryptic-logo"
+          ><img src="cryptic-template-assets/images/logo1.png" alt="cryptic-logo"
         /></a>
-        <h3 class="text-white text-bold">Login to Your Account</h3>
+        <h3 class="text-white text-bold">Sign Up</h3>
         <div class="spacer_10"></div>
         <form>
           <div class="row">

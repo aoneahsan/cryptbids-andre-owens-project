@@ -23,15 +23,15 @@
 
     <!-- Custom CSS -->
     <!-- Bootstrap Core CSS -->
-    <link href="css/theme-css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ asset('css/theme-css/main.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/theme-css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/theme-css/responsive.css') }}" rel="stylesheet">
-    <link href="{{ asset('fonts/flaticon.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/theme-css/ionicons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('ico-template-assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('ico-template-assets/css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('ico-template-assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('ico-template-assets/css/responsive.css') }}" rel="stylesheet">
+    <link href="{{ asset('ico-template-assets/fonts/flaticon.css') }}" rel="stylesheet">
+    <link href="{{ asset('ico-template-assets/css/ionicons.min.css') }}" rel="stylesheet">
 
     {{-- Favicon --}}
-    <link rel="icon" href="{{ asset('images/cryptbids/favicon.png') }}" sizes="192x192" />
+    <link rel="icon" href="{{ asset('custom-assets/images/favicon.png') }}" sizes="192x192" />
     <!-- Online Fonts -->
     {{--
     <link
@@ -45,7 +45,7 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    <link href="{{ asset('css/theme-css/custom-css.css') }}" rel="stylesheet">
+    <link href="{{ asset('custom-assets/css/custom-css.css') }}" rel="stylesheet">
     @yield('page-styles')
 </head>
 
@@ -66,15 +66,15 @@
 
     {{-- Custom Links & Scripts --}}
 
-    <script src="{{ asset('js/theme-js/jquery-1.11.3.min.js') }}"></script>
-    <script src="{{ asset('js/theme-js/bootstrap.min.js') }}"></script>
-    {{-- <script src="{{ asset('js/theme-js/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('js/theme-js/jquery.sticky.js') }}"></script>
-    <script src="{{ asset('js/theme-js/jquery.magnific-popup.min.js') }}"></script> --}}
-    <script src="{{ asset('js/theme-js/main.js') }}"></script>
-    {{-- <script src="{{ asset('js/pages-js/home-page.js') }}"></script>
+    <script src="{{ asset('ico-template-assets/js/jquery-1.11.3.min.js') }}"></script>
+    <script src="{{ asset('ico-template-assets/js/bootstrap.min.js') }}"></script>
+    {{-- <script src="{{ asset('ico-template-assets/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('ico-template-assets/js/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('ico-template-assets/js/jquery.magnific-popup.min.js') }}"></script> --}}
+    <script src="{{ asset('ico-template-assets/js/main.js') }}"></script>
+    {{-- <script src="{{ asset('ico-template-assets/js/pages-js/home-page.js') }}"></script>
     --}}
-    {{-- <script src="{{ asset('js/theme-js/particles.min.js') }}"></script>
+    {{-- <script src="{{ asset('ico-template-assets/js/particles.min.js') }}"></script>
     --}}
     @yield('page-scripts')
     <h1 style="display: none">designed and developed by <a href="https://zaions.com" target="_blank"

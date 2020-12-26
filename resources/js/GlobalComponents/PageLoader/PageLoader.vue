@@ -3,7 +3,7 @@
   <vue-loading background-color="rgba(0,0,0,.85)" :active="loadingStatus">
     <img
       class="img-responsive page-loading-img"
-      src="images/cryptbids/cryptbids-logo.png"
+      src="custom-assets/images/cryptbids-logo.png"
       width="250px"
       height="auto"
     />

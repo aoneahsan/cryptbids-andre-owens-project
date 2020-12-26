@@ -8,7 +8,7 @@
             <div class="w-100 text-center text-md-left mt-n3 mb-4">
               <InertiaLink :href="route('home')">
               <img
-                src="images/cryptbids/cryptbids-logo.png"
+                src="custom-assets/images/cryptbids-logo.png"
                 class="col-12 col-sm-10 pl-0 d-inline-block"
               />
               </InertiaLink>

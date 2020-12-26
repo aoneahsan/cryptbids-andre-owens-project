@@ -17,7 +17,7 @@
           </div>
           <div class="col-12 col-md-6 text-center text-md-left">
             <img
-              src="images/cryptbids/phongphong-coin.png"
+              src="custom-assets/images/phongphong-coin.png"
               class="w-100 h-100"
             />
           </div>
