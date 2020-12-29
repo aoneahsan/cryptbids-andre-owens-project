@@ -2,8 +2,10 @@
   <div>
     <div class="container st-container st-effect">
       <div class="block-page text-center">
-        <a href="index.html"
-          ><img src="cryptic-template-assets/images/logo1.png" alt="cryptic-logo"
+        <a href="#" @click="openHome"
+          ><img
+            src="cryptic-template-assets/images/logo1.png"
+            alt="cryptic-logo"
         /></a>
         <h3 class="text-white text-bold">Sign Up</h3>
         <div class="spacer_10"></div>
@@ -81,7 +83,10 @@
           />
         </form>
         <p class="text-white">
-          or <a href="login.html" class="text-bold">Login</a>
+          or
+          <InertiaLink :href="route('sign-in', {id: 19})" class="text-bold"
+            >login</InertiaLink
+          >
         </p>
       </div>
     </div>
@@ -89,7 +94,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    openHome() {
+      window.open("/", "_self");
+    },
+  },
+};
 </script>
 
 <style>

@@ -14,7 +14,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('/')->name('home')->uses('Frontend\HomeController@render');
 
+Route::redirect("/register", "/sign-up");
+Route::redirect("/login", "/sign-in");
+
 Route::get('/sign-in')->name('sign-in')->uses('Frontend\PagesController@Login');
+Route::get('/sign-up')->name('sign-up')->uses('Frontend\PagesController@Register');
 Route::get('/about-us')->name('about-us')->uses('Frontend\PagesController@AboutUs');
 Route::get('/contact-us')->name('contact-us')->uses('Frontend\PagesController@ContactUs');
 Route::get('/privacy-policy')->name('privacy-policy')->uses('Frontend\PagesController@PrivacyPolicy');

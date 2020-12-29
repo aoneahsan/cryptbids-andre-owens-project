@@ -10,6 +10,6 @@ class HomeController extends Controller
 {
     public function render()
     {
-        return Inertia::render("Frontend/Home/index");
+        return Inertia::render("Frontend/Home/Home");
     }
 }

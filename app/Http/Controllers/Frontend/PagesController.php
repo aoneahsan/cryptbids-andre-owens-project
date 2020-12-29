@@ -54,4 +54,10 @@ class PagesController extends Controller
         Inertia::setRootView('layouts.cryptic-signup');
         return Inertia::render("FrontendCryptic/Login/Login");
     }
+
+    public function Register()
+    {
+        Inertia::setRootView('layouts.cryptic-signup');
+        return Inertia::render("FrontendCryptic/Register/Register");
+    }
 }

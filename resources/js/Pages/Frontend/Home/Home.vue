@@ -25,6 +25,7 @@
               class="input"
               name="userEmail"
               id="userEmail"
+              ref="userEmailInput"
               aria-describedby="helpId"
               placeholder="Email"
             />
@@ -322,13 +323,26 @@ export default {
   data() {
     return {
       userEmail: "",
+      emailREG: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/,
     };
   },
+  computed: {},
   methods: {
     registerUser() {
-      this.$inertia.get(route("sign-in"), {
-        email: this.userEmail,
-      });
+      if (
+        this.$refs.userEmailInput.value &&
+        this.emailREG.test(this.$refs.userEmailInput.value)
+      ) {
+        const loginURL = `/sign-in?email=${this.userEmail}`;
+        window.open(loginURL, "_self");
+      } else {
+        this.$toasted
+          .show("kindly enter a valid email to contitnue", {
+            type: "info",
+            position: "bottom-right",
+          })
+          .goAway(3000);
+      }
     },
   },
 };

@@ -32,6 +32,7 @@
         "vue-particles": "^1.0.9",
         "vue-scrollto": "^2.20.0",
         "vue-sticky-directive": "0.0.10",
+        "vue-toasted": "^1.1.28",
         "vue-youtube": "^1.4.0"
     }
 }

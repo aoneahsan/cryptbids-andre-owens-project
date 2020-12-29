@@ -12,20 +12,7 @@
         <form>
           <div class="row">
             <div class="input--akira">
-              <div class="col-xs-6">
-                <span class="input input--akira">
-                  <input
-                    class="input__field input__field--akira"
-                    type="text"
-                    id="input-1"
-                  />
-                  <label class="input__label input__label--akira" for="input-1">
-                    <span
-                      class="input__label-content input__label-content--akira"
-                      >Name</span
-                    >
-                  </label>
-                </span>
+              <div class="col-xs-12">
                 <span class="input input--akira">
                   <input
                     class="input__field input__field--akira"
@@ -40,7 +27,7 @@
                   </label>
                 </span>
               </div>
-              <div class="col-xs-6">
+              <div class="col-xs-12">
                 <span class="input input--akira">
                   <input
                     class="input__field input__field--akira"
@@ -54,36 +41,18 @@
                     >
                   </label>
                 </span>
-                <span class="input input--akira">
-                  <input
-                    class="input__field input__field--akira"
-                    type="password"
-                    id="input-4"
-                  />
-                  <label class="input__label input__label--akira" for="input-1">
-                    <span
-                      class="input__label-content input__label-content--akira"
-                      >Repeat Password</span
-                    >
-                  </label>
-                </span>
               </div>
             </div>
           </div>
-          <div class="register-check">
-            <input type="checkbox" id="c1" name="terms" value="terms" />
-            <label for="c1" class="text-white"
-              ><span></span>Accept terms & conditions</label
-            >
-          </div>
+          <button type="button" @click="check">ok</button>
           <input
             class="form-control text-bold"
             type="submit"
-            value="create an account"
+            value="Sign In"
           />
         </form>
         <p class="text-white">
-          or <a href="login.html" class="text-bold">Login</a>
+          or <InertiaLink :href="route('sign-up')" class="text-bold">register</InertiaLink>
         </p>
       </div>
     </div>
@@ -91,13 +60,20 @@
 </template>
 
 <script>
+import Button from '../../../Jetstream/Button.vue';
 export default {
+  components: { Button },
   data() {
     return {};
   },
   created() {
-    console.log(this.$route);
+    console.log("this.route().queryParams = ", this.route().queryParams);
   },
+  methods: {
+    check () {
+      console.log("this.route().queryParams = ", this.route().queryParams);
+    }
+  }
 };
 </script>
 
