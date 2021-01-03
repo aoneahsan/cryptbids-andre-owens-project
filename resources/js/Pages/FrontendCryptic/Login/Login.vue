@@ -9,7 +9,7 @@
         /></a>
         <h3 class="text-white text-bold">Sign In</h3>
         <div class="spacer_10"></div>
-        <form>
+        <form @submit.prevent="loginM()">
           <div class="row">
             <div class="input--akira">
               <div class="col-xs-12">
@@ -17,6 +17,7 @@
                   <input
                     class="input__field input__field--akira"
                     type="email"
+                    v-model="user.email"
                     id="input-2"
                   />
                   <label class="input__label input__label--akira" for="input-1">
@@ -32,6 +33,7 @@
                   <input
                     class="input__field input__field--akira"
                     type="password"
+                    v-model="user.password"
                     id="input-3"
                   />
                   <label class="input__label input__label--akira" for="input-1">
@@ -44,15 +46,13 @@
               </div>
             </div>
           </div>
-          <button type="button" @click="check">ok</button>
-          <input
-            class="form-control text-bold"
-            type="submit"
-            value="Sign In"
-          />
+          <input class="form-control text-bold" type="submit" value="Sign In" />
         </form>
         <p class="text-white">
-          or <InertiaLink :href="route('sign-up')" class="text-bold">register</InertiaLink>
+          or
+          <InertiaLink :href="route('sign-up')" class="text-bold"
+            >register</InertiaLink
+          >
         </p>
       </div>
     </div>
@@ -60,20 +60,26 @@
 </template>
 
 <script>
-import Button from '../../../Jetstream/Button.vue';
+import Button from "../../../Jetstream/Button.vue";
 export default {
   components: { Button },
   data() {
-    return {};
+    return {
+      user: {
+        email: "",
+        password: "",
+      },
+    };
   },
-  created() {
-    console.log("this.route().queryParams = ", this.route().queryParams);
+  beforeMount() {
+    const urlParams = window.location.search.replace(/\?/, "").split("=");
+    this.user.email = urlParams[1];
   },
+  mounted() {},
+  created() {},
   methods: {
-    check () {
-      console.log("this.route().queryParams = ", this.route().queryParams);
-    }
-  }
+    
+  },
 };
 </script>
 

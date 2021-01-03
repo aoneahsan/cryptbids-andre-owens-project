@@ -5245,7 +5245,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     registerUser: function registerUser() {
       if (this.$refs.userEmailInput.value && this.emailREG.test(this.$refs.userEmailInput.value)) {
-        var loginURL = "/sign-in?email=".concat(this.userEmail);
+        var loginURL = "/sign-up?email=".concat(this.userEmail);
         window.open(loginURL, "_self");
       } else {
         this.$toasted.show("kindly enter a valid email to contitnue", {
@@ -6311,16 +6311,20 @@ __webpack_require__.r(__webpack_exports__);
     Button: _Jetstream_Button_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
   data: function data() {
-    return {};
+    return {
+      user: {
+        email: "",
+        password: ""
+      }
+    };
   },
-  created: function created() {
-    console.log("this.route().queryParams = ", this.route().queryParams);
+  beforeMount: function beforeMount() {
+    var urlParams = window.location.search.replace(/\?/, "").split("=");
+    this.user.email = urlParams[1];
   },
-  methods: {
-    check: function check() {
-      console.log("this.route().queryParams = ", this.route().queryParams);
-    }
-  }
+  mounted: function mounted() {},
+  created: function created() {},
+  methods: {}
 });
 
 /***/ }),
@@ -6429,7 +6433,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      user: {
+        name: "",
+        email: "",
+        password: "",
+        passwordRepeat: ""
+      }
+    };
+  },
+  beforeMount: function beforeMount() {
+    var urlParams = window.location.search.replace(/\?/, "").split("=");
+    this.user.email = urlParams[1];
+  },
   methods: {
     openHome: function openHome() {
       window.open("/", "_self");
@@ -57633,26 +57655,89 @@ var render = function() {
         _vm._v(" "),
         _c("div", { staticClass: "spacer_10" }),
         _vm._v(" "),
-        _c("form", [
-          _vm._m(1),
-          _vm._v(" "),
-          _c(
-            "button",
-            { attrs: { type: "button" }, on: { click: _vm.check } },
-            [_vm._v("ok")]
-          ),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control text-bold",
-            attrs: { type: "submit", value: "Sign In" }
-          })
-        ]),
+        _c(
+          "form",
+          {
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.loginM()
+              }
+            }
+          },
+          [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "input--akira" }, [
+                _c("div", { staticClass: "col-xs-12" }, [
+                  _c("span", { staticClass: "input input--akira" }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.user.email,
+                          expression: "user.email"
+                        }
+                      ],
+                      staticClass: "input__field input__field--akira",
+                      attrs: { type: "email", id: "input-2" },
+                      domProps: { value: _vm.user.email },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(_vm.user, "email", $event.target.value)
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _vm._m(1)
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-xs-12" }, [
+                  _c("span", { staticClass: "input input--akira" }, [
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.user.password,
+                          expression: "user.password"
+                        }
+                      ],
+                      staticClass: "input__field input__field--akira",
+                      attrs: { type: "password", id: "input-3" },
+                      domProps: { value: _vm.user.password },
+                      on: {
+                        input: function($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(_vm.user, "password", $event.target.value)
+                        }
+                      }
+                    }),
+                    _vm._v(" "),
+                    _vm._m(2)
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              staticClass: "form-control text-bold",
+              attrs: { type: "submit", value: "Sign In" }
+            })
+          ]
+        ),
         _vm._v(" "),
         _c(
           "p",
           { staticClass: "text-white" },
           [
-            _vm._v("\n        or "),
+            _vm._v("\n        or\n        "),
             _c(
               "InertiaLink",
               {
@@ -57686,63 +57771,39 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "input--akira" }, [
-        _c("div", { staticClass: "col-xs-12" }, [
-          _c("span", { staticClass: "input input--akira" }, [
-            _c("input", {
-              staticClass: "input__field input__field--akira",
-              attrs: { type: "email", id: "input-2" }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              {
-                staticClass: "input__label input__label--akira",
-                attrs: { for: "input-1" }
-              },
-              [
-                _c(
-                  "span",
-                  {
-                    staticClass:
-                      "input__label-content input__label-content--akira"
-                  },
-                  [_vm._v("Email")]
-                )
-              ]
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-xs-12" }, [
-          _c("span", { staticClass: "input input--akira" }, [
-            _c("input", {
-              staticClass: "input__field input__field--akira",
-              attrs: { type: "password", id: "input-3" }
-            }),
-            _vm._v(" "),
-            _c(
-              "label",
-              {
-                staticClass: "input__label input__label--akira",
-                attrs: { for: "input-1" }
-              },
-              [
-                _c(
-                  "span",
-                  {
-                    staticClass:
-                      "input__label-content input__label-content--akira"
-                  },
-                  [_vm._v("Password")]
-                )
-              ]
-            )
-          ])
-        ])
-      ])
-    ])
+    return _c(
+      "label",
+      {
+        staticClass: "input__label input__label--akira",
+        attrs: { for: "input-1" }
+      },
+      [
+        _c(
+          "span",
+          { staticClass: "input__label-content input__label-content--akira" },
+          [_vm._v("Email")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticClass: "input__label input__label--akira",
+        attrs: { for: "input-1" }
+      },
+      [
+        _c(
+          "span",
+          { staticClass: "input__label-content input__label-content--akira" },
+          [_vm._v("Password")]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -57782,7 +57843,130 @@ var render = function() {
         _vm._v(" "),
         _c("div", { staticClass: "spacer_10" }),
         _vm._v(" "),
-        _vm._m(0),
+        _c("form", [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "input--akira" }, [
+              _c("div", { staticClass: "col-xs-6" }, [
+                _c("span", { staticClass: "input input--akira" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.user.name,
+                        expression: "user.name"
+                      }
+                    ],
+                    staticClass: "input__field input__field--akira",
+                    attrs: { type: "text", id: "input-1" },
+                    domProps: { value: _vm.user.name },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.user, "name", $event.target.value)
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _vm._m(0)
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "input input--akira" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.user.email,
+                        expression: "user.email"
+                      }
+                    ],
+                    staticClass: "input__field input__field--akira",
+                    attrs: { type: "email", id: "input-2" },
+                    domProps: { value: _vm.user.email },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.user, "email", $event.target.value)
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _vm._m(1)
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-xs-6" }, [
+                _c("span", { staticClass: "input input--akira" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.user.paswword,
+                        expression: "user.paswword"
+                      }
+                    ],
+                    staticClass: "input__field input__field--akira",
+                    attrs: { type: "password", id: "input-3" },
+                    domProps: { value: _vm.user.paswword },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(_vm.user, "paswword", $event.target.value)
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _vm._m(2)
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "input input--akira" }, [
+                  _c("input", {
+                    directives: [
+                      {
+                        name: "model",
+                        rawName: "v-model",
+                        value: _vm.user.paswwordRepeat,
+                        expression: "user.paswwordRepeat"
+                      }
+                    ],
+                    staticClass: "input__field input__field--akira",
+                    attrs: { type: "password", id: "input-4" },
+                    domProps: { value: _vm.user.paswwordRepeat },
+                    on: {
+                      input: function($event) {
+                        if ($event.target.composing) {
+                          return
+                        }
+                        _vm.$set(
+                          _vm.user,
+                          "paswwordRepeat",
+                          $event.target.value
+                        )
+                      }
+                    }
+                  }),
+                  _vm._v(" "),
+                  _vm._m(3)
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "form-control text-bold",
+            attrs: { type: "submit", value: "create an account" }
+          })
+        ]),
         _vm._v(" "),
         _c(
           "p",
@@ -57809,130 +57993,91 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("form", [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "input--akira" }, [
-          _c("div", { staticClass: "col-xs-6" }, [
-            _c("span", { staticClass: "input input--akira" }, [
-              _c("input", {
-                staticClass: "input__field input__field--akira",
-                attrs: { type: "text", id: "input-1" }
-              }),
-              _vm._v(" "),
-              _c(
-                "label",
-                {
-                  staticClass: "input__label input__label--akira",
-                  attrs: { for: "input-1" }
-                },
-                [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "input__label-content input__label-content--akira"
-                    },
-                    [_vm._v("Name")]
-                  )
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("span", { staticClass: "input input--akira" }, [
-              _c("input", {
-                staticClass: "input__field input__field--akira",
-                attrs: { type: "email", id: "input-2" }
-              }),
-              _vm._v(" "),
-              _c(
-                "label",
-                {
-                  staticClass: "input__label input__label--akira",
-                  attrs: { for: "input-1" }
-                },
-                [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "input__label-content input__label-content--akira"
-                    },
-                    [_vm._v("Email")]
-                  )
-                ]
-              )
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-xs-6" }, [
-            _c("span", { staticClass: "input input--akira" }, [
-              _c("input", {
-                staticClass: "input__field input__field--akira",
-                attrs: { type: "password", id: "input-3" }
-              }),
-              _vm._v(" "),
-              _c(
-                "label",
-                {
-                  staticClass: "input__label input__label--akira",
-                  attrs: { for: "input-1" }
-                },
-                [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "input__label-content input__label-content--akira"
-                    },
-                    [_vm._v("Password")]
-                  )
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("span", { staticClass: "input input--akira" }, [
-              _c("input", {
-                staticClass: "input__field input__field--akira",
-                attrs: { type: "password", id: "input-4" }
-              }),
-              _vm._v(" "),
-              _c(
-                "label",
-                {
-                  staticClass: "input__label input__label--akira",
-                  attrs: { for: "input-1" }
-                },
-                [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "input__label-content input__label-content--akira"
-                    },
-                    [_vm._v("Repeat Password")]
-                  )
-                ]
-              )
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "register-check" }, [
-        _c("input", {
-          attrs: { type: "checkbox", id: "c1", name: "terms", value: "terms" }
-        }),
-        _vm._v(" "),
-        _c("label", { staticClass: "text-white", attrs: { for: "c1" } }, [
-          _c("span"),
-          _vm._v("Accept terms & conditions")
-        ])
-      ]),
-      _vm._v(" "),
+    return _c(
+      "label",
+      {
+        staticClass: "input__label input__label--akira",
+        attrs: { for: "input-1" }
+      },
+      [
+        _c(
+          "span",
+          { staticClass: "input__label-content input__label-content--akira" },
+          [_vm._v("Name")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticClass: "input__label input__label--akira",
+        attrs: { for: "input-1" }
+      },
+      [
+        _c(
+          "span",
+          { staticClass: "input__label-content input__label-content--akira" },
+          [_vm._v("Email")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticClass: "input__label input__label--akira",
+        attrs: { for: "input-1" }
+      },
+      [
+        _c(
+          "span",
+          { staticClass: "input__label-content input__label-content--akira" },
+          [_vm._v("Password")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "label",
+      {
+        staticClass: "input__label input__label--akira",
+        attrs: { for: "input-1" }
+      },
+      [
+        _c(
+          "span",
+          { staticClass: "input__label-content input__label-content--akira" },
+          [_vm._v("Repeat Password")]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "register-check" }, [
       _c("input", {
-        staticClass: "form-control text-bold",
-        attrs: { type: "submit", value: "create an account" }
-      })
+        attrs: { type: "checkbox", id: "c1", name: "terms", value: "terms" }
+      }),
+      _vm._v(" "),
+      _c("label", { staticClass: "text-white", attrs: { for: "c1" } }, [
+        _c("span"),
+        _vm._v("Accept terms & conditions")
+      ])
     ])
   }
 ]

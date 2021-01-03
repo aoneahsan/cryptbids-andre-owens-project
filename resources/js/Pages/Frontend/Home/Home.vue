@@ -333,7 +333,7 @@ export default {
         this.$refs.userEmailInput.value &&
         this.emailREG.test(this.$refs.userEmailInput.value)
       ) {
-        const loginURL = `/sign-in?email=${this.userEmail}`;
+        const loginURL = `/sign-up?email=${this.userEmail}`;
         window.open(loginURL, "_self");
       } else {
         this.$toasted

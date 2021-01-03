@@ -17,6 +17,7 @@
                   <input
                     class="input__field input__field--akira"
                     type="text"
+                    v-model="user.name"
                     id="input-1"
                   />
                   <label class="input__label input__label--akira" for="input-1">
@@ -30,6 +31,7 @@
                   <input
                     class="input__field input__field--akira"
                     type="email"
+                    v-model="user.email"
                     id="input-2"
                   />
                   <label class="input__label input__label--akira" for="input-1">
@@ -45,6 +47,7 @@
                   <input
                     class="input__field input__field--akira"
                     type="password"
+                    v-model="user.paswword"
                     id="input-3"
                   />
                   <label class="input__label input__label--akira" for="input-1">
@@ -58,6 +61,7 @@
                   <input
                     class="input__field input__field--akira"
                     type="password"
+                    v-model="user.paswwordRepeat"
                     id="input-4"
                   />
                   <label class="input__label input__label--akira" for="input-1">
@@ -84,7 +88,7 @@
         </form>
         <p class="text-white">
           or
-          <InertiaLink :href="route('sign-in', {id: 19})" class="text-bold"
+          <InertiaLink :href="route('sign-in', { id: 19 })" class="text-bold"
             >login</InertiaLink
           >
         </p>
@@ -95,6 +99,20 @@
 
 <script>
 export default {
+  data() {
+    return {
+      user: {
+        name: "",
+        email: "",
+        password: "",
+        passwordRepeat: ""
+      },
+    };
+  },
+  beforeMount() {
+    const urlParams = window.location.search.replace(/\?/, "").split("=");
+    this.user.email = urlParams[1];
+  },
   methods: {
     openHome() {
       window.open("/", "_self");
