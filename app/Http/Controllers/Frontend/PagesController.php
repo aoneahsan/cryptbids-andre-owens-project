@@ -11,42 +11,42 @@ class PagesController extends Controller
     public function AboutUs()
     {
         // Inertia::setRootView('admin-panel');
-        return Inertia::render("Frontend/AboutUs/AboutUs", []);
+        return Inertia::render("FrontendICO/AboutUs/AboutUs", []);
     }
 
     public function ContactUs()
     {
-        return Inertia::render("Frontend/ContactUs/ContactUs");
+        return Inertia::render("FrontendICO/ContactUs/ContactUs");
     }
 
     public function FAQ()
     {
-        return Inertia::render("Frontend/FAQ/FAQ");
+        return Inertia::render("FrontendICO/FAQ/FAQ");
     }
 
     public function Fees()
     {
-        return Inertia::render("Frontend/Fees/Fees");
+        return Inertia::render("FrontendICO/Fees/Fees");
     }
 
     public function PrivacyPolicy()
     {
-        return Inertia::render("Frontend/PrivacyPolicy/PrivacyPolicy");
+        return Inertia::render("FrontendICO/PrivacyPolicy/PrivacyPolicy");
     }
 
     public function TermsConditions()
     {
-        return Inertia::render("Frontend/TermsConditions/TermsConditions");
+        return Inertia::render("FrontendICO/TermsConditions/TermsConditions");
     }
 
     public function Disclaimer()
     {
-        return Inertia::render("Frontend/Disclaimer/Disclaimer");
+        return Inertia::render("FrontendICO/Disclaimer/Disclaimer");
     }
 
     public function Career()
     {
-        return Inertia::render("Frontend/Career/Career");
+        return Inertia::render("FrontendICO/Career/Career");
     }
 
     public function Login()
