@@ -11,7 +11,7 @@
 
     {{-- Custom Links Scripts - Starts --}}
     {{-- Favicon --}}
-    <link rel="icon" href="{{ asset('images/cryptbids/favicon.png') }}" sizes="192x192" />
+    <link rel="icon" href="{{ asset('custom-assets/images/favicon.png') }}" sizes="192x192" />
     <!-- CSS -->
     <!-- Bootstrap -->
     <link href="{{ asset('cryptic-template-assets/plugins/bootstrap/bootstrap.min.css') }}" rel="stylesheet">

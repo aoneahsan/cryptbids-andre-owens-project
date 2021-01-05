@@ -31,11 +31,7 @@ Route::group([
     Route::get('/disclaimer')->name('disclaimer')->uses('PagesController@Disclaimer');
     Route::get('/terms-and-conditions')->name('terms-and-conditions')->uses('PagesController@TermsConditions');
 
-    Route::post('/sign-up')->name('sign-up-action')->uses('AuthController@register')->middleware(['guest']);
-    Route::get('/email/verify')->uses("AuthController@showVerifyEmailView")->middleware('auth')->name('verification.notice');
-    Route::get('/email/verify/{id}/{hash}')->uses('AuthController@verifyEmailAction')->name('verification.verify')->middleware(['auth', 'signed']);
-    Route::post('/email/verification-notification')->uses('AuthController@resendVerificationEmail')->middleware(['auth', 'throttle:2,1'])->name('verification.send');
-
+    
     // #################################################################
     // ####################      GUEST ROUTES      #####################
     // #################################################################
@@ -45,14 +41,18 @@ Route::group([
         Route::get('/sign-in')->name('sign-in')->uses('PagesController@Login')->middleware(['guest']);
         Route::post('/sign-in')->name('sign-in-action')->uses('AuthController@login')->middleware(['guest']);
         Route::get('/sign-up')->name('sign-up')->uses('PagesController@Register')->middleware(['guest']);
+        Route::post('/sign-up')->name('sign-up-action')->uses('AuthController@register')->middleware(['guest']);
     });
-
+    
     // #################################################################
     // ####################      AUTH ROUTES      ######################
     // #################################################################
     Route::group([
-        "middleware" => ['auth:sanctum', "verified"]
+        "middleware" => ['auth']
     ], function () {
+        Route::get('/email/verify')->uses("AuthController@showVerifyEmailView")->name('verification.notice');
+        Route::get('/email/verify/{id}/{hash}')->uses('AuthController@verifyEmailAction')->name('verification.verify')->middleware(['signed']);
+        Route::get('/email/verification-notification')->uses('AuthController@resendVerificationEmail')->middleware(['throttle:2,1'])->name('verification.send');
         Route::get('/logout', 'SystemController@logout')->name('logout');
     });
 
@@ -62,9 +62,7 @@ Route::group([
     Route::group([
         "middleware" => ['auth:sanctum', "verified"]
     ], function () {
-        Route::get('/dashboard', function () {
-            return Inertia::render('Dashboard');
-        })->name('dashboard');
+        Route::get('/dashboard')->uses("PagesController@Dashboard")->name('dashboard');
     });
 });
 

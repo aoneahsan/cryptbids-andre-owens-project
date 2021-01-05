@@ -13,6 +13,18 @@ use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 
 class AuthController extends AuthenticatedSessionController
 {
+    public function loginView()
+    {
+        Inertia::setRootView('layouts.cryptic-signup');
+        return Inertia::render("FrontendCryptic/Login/Login");
+    }
+
+    public function registerView()
+    {
+        Inertia::setRootView('layouts.cryptic-signup');
+        return Inertia::render("FrontendCryptic/Register/Register");
+    }
+
     public function login(Request $request)
     {
         $request->validate([
@@ -52,8 +64,8 @@ class AuthController extends AuthenticatedSessionController
     public function resendVerificationEmail(Request $request)
     {
         $request->user()->sendEmailVerificationNotification();
-    
-        return back()->with('message', 'Verification link sent!');
+
+        return back()->with('success_message', 'Verification link sent!');
     }
 
     public function logout(Request $request)

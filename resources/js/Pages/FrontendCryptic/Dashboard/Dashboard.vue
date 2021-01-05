@@ -12,15 +12,8 @@
     <div class="alert alert-danger mb-4" role="alert" v-if="danger_message">
       <strong>{{ danger_message }}</strong>
     </div>
-    <div
-      class="alert alert-info mb-4"
-      role="alert"
-      v-if="!user.email_verified_at"
-    >
-      <strong>Email verification email send, verify email to continue</strong>
-    </div>
-    <h1 class="text-center">Didn't found email?</h1>
-    <p class="text-center">Use below link to recreate verification email.</p>
+    <h1 class="text-center">Welcome to Cryptbids!</h1>
+    <p class="text-center">world best auction platform, where you can.</p>
     <inertia-link
       :href="route('verification.send')"
       class="btn btn-default button-element"

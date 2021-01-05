@@ -49,13 +49,9 @@ class PagesController extends Controller
         return Inertia::render("FrontendICO/Career/Career");
     }
 
-    public function Login()
-    {
-        Inertia::setRootView('layouts.cryptic-signup');
-        return Inertia::render("FrontendCryptic/Login/Login");
-    }
+    // User Dashboard Related Routes
 
-    public function Register()
+    public function Dashboard()
     {
         Inertia::setRootView('layouts.cryptic-signup');
         return Inertia::render("FrontendCryptic/Register/Register");

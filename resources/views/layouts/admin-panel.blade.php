@@ -11,7 +11,7 @@
 
     {{-- Custom Links Scripts - Starts --}}
     {{-- Favicon --}}
-    <link rel="icon" href="{{ asset('images/cryptbids/favicon.png') }}" sizes="192x192" />
+    <link rel="icon" href="{{ asset('custom-assets/images/favicon.png') }}" sizes="192x192" />
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
