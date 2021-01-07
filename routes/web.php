@@ -1,9 +1,6 @@
 <?php
 
-use Illuminate\Foundation\Auth\EmailVerificationRequest;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Inertia\Inertia;
 
 Route::get('/welcome', function () {
     return view('welcome');
@@ -38,9 +35,9 @@ Route::group([
     Route::group([
         "middleware" => ['guest']
     ], function () {
-        Route::get('/sign-in')->name('sign-in')->uses('PagesController@Login')->middleware(['guest']);
+        Route::get('/sign-in')->name('sign-in')->uses('AuthController@loginView')->middleware(['guest']);
         Route::post('/sign-in')->name('sign-in-action')->uses('AuthController@login')->middleware(['guest']);
-        Route::get('/sign-up')->name('sign-up')->uses('PagesController@Register')->middleware(['guest']);
+        Route::get('/sign-up')->name('sign-up')->uses('AuthController@registerView')->middleware(['guest']);
         Route::post('/sign-up')->name('sign-up-action')->uses('AuthController@register')->middleware(['guest']);
     });
     
@@ -53,14 +50,14 @@ Route::group([
         Route::get('/email/verify')->uses("AuthController@showVerifyEmailView")->name('verification.notice');
         Route::get('/email/verify/{id}/{hash}')->uses('AuthController@verifyEmailAction')->name('verification.verify')->middleware(['signed']);
         Route::get('/email/verification-notification')->uses('AuthController@resendVerificationEmail')->middleware(['throttle:2,1'])->name('verification.send');
-        Route::get('/logout', 'SystemController@logout')->name('logout');
+        Route::get('/logout', 'AuthController@logout')->name('logout');
     });
 
     // #################################################################
     // #################     ADMIN PANEL ROUTES     ####################
     // #################################################################
     Route::group([
-        "middleware" => ['auth:sanctum', "verified"]
+        "middleware" => ['auth', "verified"]
     ], function () {
         Route::get('/dashboard')->uses("PagesController@Dashboard")->name('dashboard');
     });

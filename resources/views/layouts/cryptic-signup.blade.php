@@ -31,6 +31,7 @@
     {{-- Laravel Mix Imports --}}
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('custom-assets/css/custom-css.css') }}">
 
     <!-- Scripts -->
     @routes

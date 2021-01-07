@@ -1,7 +1,7 @@
 <template>
   <div>
     <PageLoader :show="true" :time="800" />
-    <Header />
+    <Header :user="user" />
     <!-- this round div is required due to livewire -->
     <!-- HOME MAIN  -->
     <section class="simple-head">
@@ -310,6 +310,7 @@ import { InertiaLink } from "@inertiajs/inertia-vue";
 import Header from "./../Header/Header";
 import Footer from "./../Footer/Footer";
 export default {
+  props: ["user"],
   components: {
     InertiaLink,
     Header,

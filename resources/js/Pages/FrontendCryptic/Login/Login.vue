@@ -9,7 +9,7 @@
         /></a>
         <h3 class="text-white text-bold">Sign In</h3>
         <div class="spacer_10"></div>
-        <form @submit.prevent="loginM()">
+        <form @submit.prevent="login()">
           <div class="row">
             <div class="input--akira">
               <div class="col-xs-12">
@@ -20,7 +20,11 @@
                     v-model="user.email"
                     id="input-2"
                   />
-                  <label class="input__label input__label--akira" for="input-1">
+                  <label
+                    class="input__label input__label--akira"
+                    for="input-1"
+                    :class="{ 'bg-danger': errors.email }"
+                  >
                     <span
                       class="input__label-content input__label-content--akira"
                       >Email</span
@@ -36,13 +40,19 @@
                     v-model="user.password"
                     id="input-3"
                   />
-                  <label class="input__label input__label--akira" for="input-1">
+                  <label
+                    class="input__label input__label--akira"
+                    for="input-1"
+                    :class="{ 'bg-danger': errors.password }"
+                  >
                     <span
                       class="input__label-content input__label-content--akira"
                       >Password</span
                     >
                   </label>
                 </span>
+                <span v-if="errors.email">{{ errors.email }}</span>
+                <span v-if="errors.password">{{ errors.password }}</span>
               </div>
             </div>
           </div>
@@ -69,6 +79,7 @@ export default {
         email: "",
         password: "",
       },
+      errors: {},
     };
   },
   beforeMount() {
@@ -78,7 +89,24 @@ export default {
   mounted() {},
   created() {},
   methods: {
-    
+    login() {
+      this.errors = {};
+      this.$inertia.post("/sign-in", this.user, {
+        preserveScroll: true,
+        onSuccess: (res) => {
+          if (!!res.props.errors) {
+            this.errors = res.props.errors;
+          } else {
+            window.open("/dashboard", "_self");
+          }
+          console.log("this.errors = ", this.errors);
+          console.log("this.errors.email = ", this.errors.email);
+        },
+        onError: (err) => {
+          console.log(err);
+        },
+      });
+    },
   },
 };
 </script>

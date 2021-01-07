@@ -55,12 +55,19 @@
               >
             </li> -->
               <!-- @endauth @guest -->
-              <li class="request()->is('sign-in') ? 'active' : ''">
-                <a href="sign-in">Login</a>
-              </li>
-              <li class="request()->is('register') ? 'active' : ''">
-                <a href="register" class="btn btn-inverse py-2">Register</a>
-              </li>
+              <div v-if="!user">
+                <li class="request()->is('sign-in') ? 'active' : ''">
+                  <a href="sign-in">Login</a>
+                </li>
+                <li class="request()->is('register') ? 'active' : ''">
+                  <a href="register" class="btn btn-inverse py-2">Register</a>
+                </li>
+              </div>
+              <div v-if="user">
+                <li>
+                  <a href="/logout" class="btn btn-inverse py-2">Logout</a>
+                </li>
+              </div>
               <!-- @endguest -->
             </ul>
           </div>
@@ -74,11 +81,20 @@
 <script>
 import { InertiaLink } from "@inertiajs/inertia-vue";
 export default {
+  props: ["user"],
   components: {
     InertiaLink,
   },
   data() {
     return {};
+  },
+  methods: {
+    // logout() {
+    //   this
+    // },
+  },
+  created() {
+    console.log("user = ", this.user);
   },
 };
 </script>

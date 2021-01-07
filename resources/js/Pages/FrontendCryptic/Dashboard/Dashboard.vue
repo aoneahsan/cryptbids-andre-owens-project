@@ -13,13 +13,13 @@
       <strong>{{ danger_message }}</strong>
     </div>
     <h1 class="text-center">Welcome to Cryptbids!</h1>
-    <p class="text-center">world best auction platform, where you can.</p>
-    <inertia-link
+    <h2 class="text-center">world best auction platform, where you can.</h2>
+    <!-- <inertia-link
       :href="route('verification.send')"
       class="btn btn-default button-element"
     >
       Resend Verify Email
-    </inertia-link>
+    </inertia-link> -->
   </div>
 </template>
 

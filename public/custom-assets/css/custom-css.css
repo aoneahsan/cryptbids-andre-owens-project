@@ -216,3 +216,12 @@
         margin: 16px 0 6px 0;
     }
 }
+
+
+/* Admin Panel CSS */
+.bg-danger {
+    background-color: red;
+}
+.text-danger {
+    color: red;
+}

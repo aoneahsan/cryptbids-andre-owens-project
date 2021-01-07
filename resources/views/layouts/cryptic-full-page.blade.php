@@ -31,6 +31,7 @@
     {{-- Laravel Mix Imports --}}
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('custom-assets/css/custom-css.css') }}">
 
     <!-- Scripts -->
     @routes
@@ -48,7 +49,7 @@
                     <div class="scroll-view">
                         <div class="navbar nav_title">
                             <h1 class="logo_wrapper">
-                                <a href="index.html" class="site_logo">
+                                <a href="/" class="site_logo">
                                     <img class="logo"
                                         src="{{ asset('cryptic-template-assets/images/cryptic-logo.png') }}"
                                         alt="cryptic logo">
@@ -75,7 +76,7 @@
                             <a data-toggle="tooltip" id="btnFullscreen" data-placement="top" title="FullScreen">
                                 <span class="icon-size-fullscreen icons" aria-hidden="true"></span>
                             </a>
-                            <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                            <a data-toggle="tooltip" data-placement="top" title="Logout" href="/logout">
                                 <span class="icon-power icons" aria-hidden="true"></span>
                             </a>
                         </div>

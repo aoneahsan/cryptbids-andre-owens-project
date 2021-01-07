@@ -53,7 +53,7 @@ class PagesController extends Controller
 
     public function Dashboard()
     {
-        Inertia::setRootView('layouts.cryptic-signup');
-        return Inertia::render("FrontendCryptic/Register/Register");
+        Inertia::setRootView('layouts.cryptic-full-page');
+        return Inertia::render("FrontendCryptic/Dashboard/Dashboard");
     }
 }
