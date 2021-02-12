@@ -7,9 +7,7 @@ use Illuminate\Auth\Events\Registered;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Redirect;
 use Inertia\Inertia;
-use Laravel\Fortify\Contracts\CreatesNewUsers;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 use Laravel\Fortify\Http\Requests\LoginRequest;
 use Laravel\Fortify\Http\Responses\LoginResponse;
@@ -50,11 +48,21 @@ class AuthController extends AuthenticatedSessionController
         // }
     }
 
-    public function register(
-        Request $request,
-        CreatesNewUsers $creator
-    ) {
-        event(new Registered($user = $creator->create($request->all())));
+    public function register(Request $request)
+    {
+        $request->validate([
+            // 'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => ["required", "string", "min:6"]
+        ]);
+
+        $user = User::create([
+            'name' => $request->has('name') ? $request->name : null,
+            'email' => $request->email,
+            'password' => Hash::make($request['password']),
+        ]);
+
+        event(new Registered($user));
 
         $this->guard->login($user);
 

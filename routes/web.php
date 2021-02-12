@@ -10,12 +10,6 @@ Route::group([
     "namespace" => "Frontend"
 ], function () {
     // #################################################################
-    // ########################    REDIRECTS    ########################
-    // #################################################################
-    Route::redirect("/register", "/sign-up");
-    Route::redirect("/login", "/sign-in");
-
-    // #################################################################
     // ####################      GENERIC ROUTES      ###################
     // #################################################################
     Route::get('/')->name('home')->uses('HomeController@render');
@@ -28,19 +22,19 @@ Route::group([
     Route::get('/disclaimer')->name('disclaimer')->uses('PagesController@Disclaimer');
     Route::get('/terms-and-conditions')->name('terms-and-conditions')->uses('PagesController@TermsConditions');
 
-    
+
     // #################################################################
     // ####################      GUEST ROUTES      #####################
     // #################################################################
     Route::group([
         "middleware" => ['guest']
     ], function () {
-        Route::get('/sign-in')->name('sign-in')->uses('AuthController@loginView')->middleware(['guest']);
-        Route::post('/sign-in')->name('sign-in-action')->uses('AuthController@login')->middleware(['guest']);
-        Route::get('/sign-up')->name('sign-up')->uses('AuthController@registerView')->middleware(['guest']);
-        Route::post('/sign-up')->name('sign-up-action')->uses('AuthController@register')->middleware(['guest']);
+        Route::get('/sign-in')->name('sign-in')->uses('AuthController@loginView');
+        Route::post('/sign-in')->name('sign-in-action')->uses('AuthController@login');
+        Route::get('/sign-up')->name('sign-up')->uses('AuthController@registerView');
+        Route::post('/sign-up')->name('sign-up-action')->uses('AuthController@register');
     });
-    
+
     // #################################################################
     // ####################      AUTH ROUTES      ######################
     // #################################################################
@@ -61,6 +55,12 @@ Route::group([
     ], function () {
         Route::get('/dashboard')->uses("PagesController@Dashboard")->name('dashboard');
     });
+
+    // #################################################################
+    // ########################    REDIRECTS    ########################
+    // #################################################################
+    Route::redirect("/register", "/sign-up");
+    Route::redirect("/login", "/sign-in");
 });
 
 
