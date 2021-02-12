@@ -54,6 +54,7 @@ Route::group([
         "middleware" => ['auth', "verified"]
     ], function () {
         Route::get('/dashboard')->uses("PagesController@Dashboard")->name('dashboard');
+        Route::get('/coins')->uses("CoinController@index")->name('coins');
     });
 
     // #################################################################

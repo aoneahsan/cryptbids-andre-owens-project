@@ -1,4 +1,5 @@
 <template>
+  <CrypticFullPage>
   <div
     class="exchange-section data_background text-center"
     data-background="./../cryptic-template-assets/images/exchange-background.png"
@@ -21,6 +22,7 @@
       Resend Verify Email
     </inertia-link> -->
   </div>
+  </CrypticFullPage>
 </template>
 
 <script>
@@ -41,4 +43,7 @@ export default {
 </script>
 
 <style>
+.data_background {
+  height: 100%;
+}
 </style>

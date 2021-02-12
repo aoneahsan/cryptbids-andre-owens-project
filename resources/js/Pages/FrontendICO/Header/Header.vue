@@ -65,6 +65,9 @@
               </div>
               <div v-if="user">
                 <li>
+                  <a href="/dashboard" class="btn btn-inverse py-2">Dashboard</a>
+                </li>
+                <li>
                   <a href="/logout" class="btn btn-inverse py-2">Logout</a>
                 </li>
               </div>
